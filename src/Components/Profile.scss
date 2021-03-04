@@ -1,5 +1,16 @@
 .name-job {
 	text-align: center;
+	.pic {
+		display: block;
+		width: 18rem;
+		margin: -10rem auto 0 auto;
+		padding-bottom: 2rem;
+		transition: all 0.3s;
+		img {
+			width: 100%;
+			border-radius: 5rem;
+		}
+	}
 	.badge {
 		display: inline-block;
 		margin: 0 auto;
