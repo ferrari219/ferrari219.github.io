@@ -3,7 +3,7 @@
 	.pic {
 		display: block;
 		width: 18rem;
-		margin: -10rem auto 0 auto;
+		margin: -13rem auto 0 auto;
 		padding-bottom: 2rem;
 		transition: all 0.3s;
 		img {
@@ -23,7 +23,7 @@
 		display: flex;
 		flex-direction: row;
 		width: 5rem;
-		margin: 2rem auto;
+		margin: 2rem auto 0 auto;
 		li + li {
 			margin-left: 1rem;
 		}

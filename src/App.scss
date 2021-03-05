@@ -32,7 +32,8 @@
 	padding-top: 20rem;
 	.box {
 		position: relative;
-		min-height: 40rem;
+		min-height: 35rem;
+		padding-top: 1.5rem;
 		padding-bottom: 1.5rem;
 		background: white;
 		border-radius: 2rem;
@@ -48,11 +49,11 @@
 			border-radius: 0 0 20px 20px;
 		}
 		.outer {
-			padding: 0.5rem 3rem;
+			padding: 2rem;
 		}
 		.inner {
 			background: #f5f6f7;
-			padding: 1rem 2rem;
+			padding: 2rem;
 		}
 	}
 }
