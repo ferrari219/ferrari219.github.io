@@ -1,23 +1,24 @@
 import React from 'react';
-import './Profile.scss';
+import style from './Info.module.scss';
+import me from '@/img/me.jpg';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
-const Profile = () => {
+const Info = () => {
 	return (
-		<aside className="box sidebar">
+		<aside>
 			<h1 className="sr-only">프로필</h1>
-			<div className="outer">
-				<section className="name-job">
-					<p className="pic">
-						<img src="https://avatars.githubusercontent.com/u/16126002?s=460&u=64f766ecff0dfc3ccb5990ba1ec6686fb3ffce3b&v=4" alt="" />
+			<div className={style.outer}>
+				<section className={style.nameJob}>
+					<p className={style.pic}>
+						<img src={me} alt="" />
 					</p>
 					<h3 className="is-h3">Sung ho Jeon</h3>
-					<p className="badge">Frontend Developer</p>
-					<ul className="lnk">
+					<p className={style.badge}>Frontend Developer</p>
+					<ul className={style.lnk}>
 						<li>
 							<a href="#">
 								<LinkedInIcon />
@@ -51,4 +52,4 @@ const Profile = () => {
 	);
 };
 
-export default Profile;
+export default Info;
