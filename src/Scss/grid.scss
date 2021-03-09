@@ -1,16 +1,32 @@
 $grid: 1/16 * 100%;
 $spacing: 0;
 
+// mobile
+@mixin mobile-device {
+	@media screen and (max-width: 768px) {
+		@content;
+	}
+}
+
 @mixin grid($item) {
 	width: 100%;
 	max-width: $grid * $item;
-	height: 100vh;
+	// height: 100vh;
 	padding: 0 $spacing;
+	@include mobile-device {
+		max-width: 100%;
+		max-height: auto;
+	}
 }
 
-.grid-container {
+.gridContainer {
 	display: flex;
 	flex-direction: row;
+	// position: relative;
+	// z-index: 999;
+	@include mobile-device {
+		display: block;
+	}
 	.grid1 {
 		@include grid(1);
 	}

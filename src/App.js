@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import 'scss/index';
+import 'scss/index'; //global scss
 import style from './App.module.scss';
-import refer from 'img/refer.jpg';
-import Info from 'comp/Info';
+import MainInfo from '@/common/mainInfo';
+import SubInfo from '@/common/subInfo';
+import refer from 'img/refer.jpg'; //삭제 예정
 
-import me from '@/img/me.jpg';
+// state = {
+// 	mainInfo: {},
+// 	subInfo: {
+
+// 	}
+// }
 
 class App extends Component {
 	render() {
@@ -13,12 +19,8 @@ class App extends Component {
 				{/* <div className={style.refer}>
 					<img src={refer} alt="refer-image" />
 				</div> */}
-				<div className="grid-container">
-					<div className="grid6">
-						<Info />
-					</div>
-					<div className="grid10">{/* <Contents /> */}</div>
-				</div>
+				<MainInfo />
+				<SubInfo />
 			</main>
 		);
 	}

@@ -1,0 +1,40 @@
+@import 'scss/color';
+
+.title {
+	position: relative;
+	display: flex;
+	align-items: center;
+	// margin-top: 7rem;
+	padding: 0 2rem 0 7rem;
+	background: #ebebeb;
+	font-size: 2.8rem;
+	letter-spacing: 0;
+	&::before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		content: '';
+		width: 1.5rem;
+		height: 100%;
+		background: $pc;
+	}
+}
+.content {
+	padding: 4rem 2rem 6rem 7rem;
+	color: $gc2;
+	.gridDl1 {
+		dd {
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+.iswhite {
+	.title {
+		background: #434753;
+		color: $wc1;
+	}
+	.content {
+		color: $wc1;
+	}
+}

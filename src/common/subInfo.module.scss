@@ -1,0 +1,14 @@
+@import 'scss/color';
+@import 'scss/grid';
+
+.subInfo {
+	@include mobile-device {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	aside {
+		height: 100vh;
+		background: #2c323e;
+		color: $wc1;
+	}
+}
