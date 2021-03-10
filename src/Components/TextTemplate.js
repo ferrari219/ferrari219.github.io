@@ -1,5 +1,22 @@
 import React from 'react';
 import style from './TextTemplate.module.scss';
+import PrjTemplateList from 'comp/PrjTemplateList';
+
+const ExpList = ({ griddl2 }) => {
+	const ExpItem = griddl2.map((item) => (
+		<dl key={item.company} className={style.gridDl2}>
+			<dt>
+				<span>{item.date}</span>
+				<strong>{item.company}</strong>
+			</dt>
+			<dd>
+				<strong>{item.job}</strong>
+				<PrjTemplateList projects={item.project} />
+			</dd>
+		</dl>
+	));
+	return ExpItem;
+};
 
 const TextTemplate = ({ iswhite, title, line1, gridul, griddl1, griddl2 }) => {
 	return (
@@ -39,18 +56,7 @@ const TextTemplate = ({ iswhite, title, line1, gridul, griddl1, griddl2 }) => {
 				}
 				{
 					// dt, dd direction row / dl column
-					griddl2 && (
-						<dl className={style.gridDl2}>
-							<dt>
-								<span>{griddl2[0].date}</span>
-								<strong>{griddl2[0].company}</strong>
-							</dt>
-							<dd>
-								<strong>{griddl2[0].job}</strong>
-								{/* <span>{griddl2[0].project}</span> */}
-							</dd>
-						</dl>
-					)
+					griddl2 && <ExpList griddl2={griddl2} />
 				}
 			</div>
 		</div>
