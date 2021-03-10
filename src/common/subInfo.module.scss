@@ -8,9 +8,13 @@
 	}
 	aside {
 		min-height: 100vh;
-		padding-top: 7rem;
+		padding-top: 7rem !important;
 		background: #2c323e;
 		color: $wc1;
+		a {
+			color: $wc1;
+			text-decoration: none;
+		}
 		@include mobile-device {
 			// height: auto;
 			padding-top: 0;

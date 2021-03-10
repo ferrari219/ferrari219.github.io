@@ -8,16 +8,16 @@ import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
-const subInfo = () => {
+const subInfo = ({ subInfo }) => {
 	return (
 		<div className={`gridContainer ${style.subInfo}`}>
 			<aside className="grid6">
-				<TextTemplate iswhite="iswhite" title="Skills" content="test" />
-				<TextTemplate iswhite="iswhite" title="Contact" content="github" />
+				<TextTemplate iswhite="iswhite" title="Skills" gridul={subInfo.skills} />
+				<TextTemplate iswhite="iswhite" title="Contact" griddl1={subInfo.contact} />
 			</aside>
 			<div className="grid10">
-				<TextTemplate title="I am" content="디자인, 개발 모두 다하는 욕심 많은 프론트엔드 개발자 전성호 입니다." />
-				<TextTemplate title="Experience" content="test" />
+				<TextTemplate title="I am" line1={subInfo.iam} />
+				<TextTemplate title="Experience" griddl2={subInfo.exp} />
 			</div>
 		</div>
 	);
