@@ -16,7 +16,7 @@ body {
 	background: #fff;
 	box-shadow: 0 3rem 4rem rgba(103, 118, 128, 0.5);
 	@include mobile-device {
-		width: 95%;
+		width: 100%;
 		min-width: 360px;
 		margin: 0 auto;
 	}

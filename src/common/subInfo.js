@@ -11,12 +11,12 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 const subInfo = () => {
 	return (
 		<div className={`gridContainer ${style.subInfo}`}>
-			<aside className="grid6 pt7">
+			<aside className="grid6">
 				<TextTemplate iswhite="iswhite" title="Skills" content="test" />
 				<TextTemplate iswhite="iswhite" title="Contact" content="github" />
 			</aside>
 			<div className="grid10">
-				<TextTemplate title="I am" content="디자인도 개발도 욕심 많은 프론트엔드 개발자 전성호 입니다." />
+				<TextTemplate title="I am" content="디자인, 개발 모두 다하는 욕심 많은 프론트엔드 개발자 전성호 입니다." />
 				<TextTemplate title="Experience" content="test" />
 			</div>
 		</div>

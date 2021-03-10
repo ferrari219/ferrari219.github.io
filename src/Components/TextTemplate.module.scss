@@ -1,4 +1,5 @@
 @import 'scss/color';
+@import 'scss/grid';
 
 .title {
 	position: relative;
@@ -9,6 +10,9 @@
 	background: #ebebeb;
 	font-size: 2.8rem;
 	letter-spacing: 0;
+	@include mobile-device {
+		padding: 0 2rem 0 3rem;
+	}
 	&::before {
 		position: absolute;
 		left: 0;
@@ -21,10 +25,51 @@
 }
 .content {
 	padding: 4rem 2rem 6rem 7rem;
-	color: $gc2;
+	color: $gc1;
+	@include mobile-device {
+		padding: 4rem 2rem 6rem 3rem;
+	}
 	.gridDl1 {
+		//1단구성
+		padding-bottom: 2rem;
+		dt {
+			font-size: 2.1rem;
+			font-weight: 400;
+		}
 		dd {
 			margin-bottom: 2rem;
+		}
+	}
+	.gridDl2 {
+		//2단구성
+		overflow: hidden;
+		width: 100%;
+		padding-bottom: 2rem;
+		dt {
+			float: left;
+			width: 30%;
+			span {
+				display: block;
+				padding-top: 0.5rem;
+				font-size: 1.4rem;
+			}
+			strong {
+				display: block;
+				font-size: 2rem;
+				font-weight: 400;
+			}
+		}
+		dd {
+			float: left;
+			width: 70%;
+			padding-bottom: 2rem;
+			strong {
+				display: block;
+				font-size: 2rem;
+			}
+			span {
+				display: block;
+			}
 		}
 	}
 }

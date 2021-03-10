@@ -19,10 +19,44 @@ const TextTemplate = ({ iswhite, title, content }) => {
 					<dd>grahamsnum@gmail.com</dd>
 				</dl>
 				<dl className={style.gridDl2}>
-					<dt>2021 - Present</dt>
-					<dd>Senior Frontend Developer</dd>
-					<dt>2021 - Present</dt>
-					<dd>Senior Frontend Developer</dd>
+					<dt>
+						<span>2021 - Present</span>
+						<strong>company name</strong>
+					</dt>
+					<dd>
+						<strong>Senior Frontend Developer</strong>
+						<span>
+							Experience
+							<br />
+							Experience
+							<br />
+							Experience
+							<br />
+							Experience
+							<br />
+							Experience
+							<br />
+						</span>
+					</dd>
+					<dt>
+						<span>2021 - Present</span>
+						<strong>company name</strong>
+					</dt>
+					<dd>
+						<strong>Senior Frontend Developer</strong>
+						<span>
+							Experience
+							<br />
+							Experience
+							<br />
+							Experience
+							<br />
+							Experience
+							<br />
+							Experience
+							<br />
+						</span>
+					</dd>
 				</dl>
 			</div>
 		</div>
