@@ -4,7 +4,7 @@
 
 ### Hompage
 
-[이력서 홈페이지로 보기](ferrari219.github.io)
+[이력서 홈페이지로 보기](http://ferrari219.github.io)
 
 ### Develpe story
 
