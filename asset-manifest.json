@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/ferrari219.github.io/static/css/main.721f334c.chunk.css",
-    "main.js": "/ferrari219.github.io/static/js/main.d41c6e85.chunk.js",
-    "main.js.map": "/ferrari219.github.io/static/js/main.d41c6e85.chunk.js.map",
+    "main.css": "/ferrari219.github.io/static/css/main.5c35d048.chunk.css",
+    "main.js": "/ferrari219.github.io/static/js/main.2116e5ed.chunk.js",
+    "main.js.map": "/ferrari219.github.io/static/js/main.2116e5ed.chunk.js.map",
     "runtime-main.js": "/ferrari219.github.io/static/js/runtime-main.278f8a15.js",
     "runtime-main.js.map": "/ferrari219.github.io/static/js/runtime-main.278f8a15.js.map",
-    "static/js/2.4f491c19.chunk.js": "/ferrari219.github.io/static/js/2.4f491c19.chunk.js",
-    "static/js/2.4f491c19.chunk.js.map": "/ferrari219.github.io/static/js/2.4f491c19.chunk.js.map",
+    "static/js/2.02840c9d.chunk.js": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js",
+    "static/js/2.02840c9d.chunk.js.map": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js.map",
     "static/js/3.3fd49131.chunk.js": "/ferrari219.github.io/static/js/3.3fd49131.chunk.js",
     "static/js/3.3fd49131.chunk.js.map": "/ferrari219.github.io/static/js/3.3fd49131.chunk.js.map",
     "index.html": "/ferrari219.github.io/index.html",
-    "static/css/main.721f334c.chunk.css.map": "/ferrari219.github.io/static/css/main.721f334c.chunk.css.map",
-    "static/js/2.4f491c19.chunk.js.LICENSE.txt": "/ferrari219.github.io/static/js/2.4f491c19.chunk.js.LICENSE.txt",
-    "static/media/me.aeae3744.jpg": "/ferrari219.github.io/static/media/me.aeae3744.jpg",
-    "static/media/refer.2094c15d.jpg": "/ferrari219.github.io/static/media/refer.2094c15d.jpg"
+    "static/css/main.5c35d048.chunk.css.map": "/ferrari219.github.io/static/css/main.5c35d048.chunk.css.map",
+    "static/js/2.02840c9d.chunk.js.LICENSE.txt": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js.LICENSE.txt",
+    "static/media/me.aeae3744.jpg": "/ferrari219.github.io/static/media/me.aeae3744.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.278f8a15.js",
-    "static/js/2.4f491c19.chunk.js",
-    "static/css/main.721f334c.chunk.css",
-    "static/js/main.d41c6e85.chunk.js"
+    "static/js/2.02840c9d.chunk.js",
+    "static/css/main.5c35d048.chunk.css",
+    "static/js/main.2116e5ed.chunk.js"
   ]
 }
