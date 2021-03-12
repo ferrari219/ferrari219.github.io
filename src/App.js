@@ -18,6 +18,7 @@ class App extends Component {
 				email: 'grahamsnum@gmail.com',
 				github: 'https://github.com/ferrari219',
 				homepage: 'ferrari219.github.io',
+				birth: '1983. 2. 2',
 			},
 			exp: [
 				{
@@ -36,6 +37,7 @@ class App extends Component {
 						},
 						{
 							title: '버스커 모바일웹 (사이드프로젝트)',
+							detail: '지인들과 제작한 사이드 프로젝트, 기획+디자인+프론트엔드',
 							lnk: 'https://projects.invisionapp.com/share/JZRMNHUH2BC',
 						},
 						{
@@ -50,12 +52,16 @@ class App extends Component {
 					job: '디자인팀 웹디자인&퍼블리셔',
 					project: [
 						{
-							title: 'test',
-							detail: 'test',
+							title: '알바비책 하이브리드 앱 제작',
+							detail: 'photoshop, html, css, javascript, jquery 사용',
 						},
 						{
-							title: '사내 업무 자동화툴 제작, 배포',
-							detail: '엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 제작 프로그램 제작대표이사 표창',
+							title: '포털 내 전체 팝업 개편',
+							detail: 'photoshop, html, css, javascript, jquery 사용',
+						},
+						{
+							title: '통합검색 페이지 개편',
+							detail: 'photoshop, html, css, javascript, jquery 사용',
 						},
 					],
 				},
@@ -65,8 +71,16 @@ class App extends Component {
 					job: '웹에이전시 웹디자인&퍼블리셔',
 					project: [
 						{
-							title: '리바트 씽킹 모바일웹앱. 원데이클래스 신규사업 프로토타입 제안',
-							detail: '사내 공모전 최우수상, 사업부장 표창 https://xd.adobe.com/view/396a5d24-354e-468e-45e6-cb3d07819689-4f5b/',
+							title: '코스모폴리탄 리뉴얼',
+							detail: '전 페이지 디자인 및 코딩',
+						},
+						{
+							title: '박카스 리뉴얼',
+							detail: '사내 우수사원 포상, 전 페이지 디자인 및 코딩',
+						},
+						{
+							title: '교통안전공단 리뉴얼',
+							detail: '서브 페이지 디자인 및 전 페이지 코딩',
 						},
 					],
 				},
@@ -76,16 +90,16 @@ class App extends Component {
 					job: '웹에이전시 웹디자인&퍼블리셔',
 					project: [
 						{
-							title: '리바트 씽킹 모바일웹앱. 원데이클래스 신규사업 프로토타입 제안',
-							detail: '사내 공모전 최우수상, 사업부장 표창<br/> https://xd.adobe.com/view/396a5d24-354e-468e-45e6-cb3d07819689-4f5b/',
+							title: 'EXR 마이크로사이트 ProgressiveSchool 리뉴얼 ',
+							detail: '전페이지 제작 및 코딩',
 						},
 						{
-							title: '리바트 하이브리드앱 최초 런칭',
-							detail: '현대백화점 그룹사 표창, 대표이사 표창',
+							title: '놀부 브랜드 리뉴얼',
+							detail: '서브페이지 디자인 및 전페이지 코딩',
 						},
 						{
-							title: '버스커 모바일웹 (사이드프로젝트)',
-							detail: 'https://projects.invisionapp.com/share/JZRMNHUH2BC',
+							title: 'HAZZYS 리뉴얼',
+							detail: '서브페이지 코딩',
 						},
 					],
 				},

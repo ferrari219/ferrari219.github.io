@@ -42,15 +42,25 @@ const TextTemplate = ({ iswhite, title, line1, gridul, griddl1, griddl2 }) => {
 					griddl1 && (
 						<dl className={style.gridDl1}>
 							<dt>Email</dt>
-							<dd>{griddl1.email}</dd>
+							<dd>
+								<a href={`mailto:${griddl1.email}`} target="_blank">
+									{griddl1.email}
+								</a>
+							</dd>
 							<dt>Github</dt>
 							<dd>
-								<a href={griddl1.github}>{griddl1.github}</a>
+								<a href={griddl1.github} target="_blank">
+									{griddl1.github}
+								</a>
 							</dd>
 							<dt>Homepage</dt>
 							<dd>
-								<a href={griddl1.homepage}>{griddl1.homepage}</a>
+								<a href="#" onClick="alert('현재 보고 계신 페이지입니다.');">
+									{griddl1.homepage}
+								</a>
 							</dd>
+							<dt>Birth</dt>
+							<dd>{griddl1.birth}</dd>
 						</dl>
 					)
 				}
