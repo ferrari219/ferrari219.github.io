@@ -10,6 +10,7 @@ class App extends Component {
 		mainInfo: {
 			myname: 'Sung-ho Jeon',
 			job: 'Frontend Developer',
+			lang: 'korean',
 		},
 		subInfo: {
 			iam: '디자인, 개발 모두 다하는 욕심 많은 프론트엔드 개발자 전성호 입니다.',
