@@ -41,6 +41,7 @@ class App extends Component {
 							titleEn: 'First launch of the Livart Hybrid App',
 							detail: '현대백화점 그룹사 표창, 대표이사 표창',
 							detailEn: 'Hyundai Department Store Group Company Commendation, Representative Director Commendation',
+							lnk: 'https://apps.apple.com/kr/app/%EB%A6%AC%EB%B0%94%ED%8A%B8-%EA%B0%80%EA%B5%AC%EC%99%80-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%86%A0%ED%83%88-%EB%A6%AC%EB%B9%99%EC%95%B1/id1483423472',
 						},
 						{
 							title: '버스커 모바일웹 (사이드프로젝트)',
@@ -54,6 +55,7 @@ class App extends Component {
 							titleEn: 'Create and deploy in-house automation tools',
 							detail: '대표이사 표창. 엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 제작 프로그램 제작',
 							detailEn: 'a commendation to the representative Design of product description/planning exhibition using Excel file and production of coding production program',
+							lnk: 'https://github.com/ferrari219/OAT',
 						},
 					],
 				},
@@ -69,6 +71,7 @@ class App extends Component {
 							titleEn: 'Create a part-time book hybrid app',
 							detail: 'photoshop, html, css, javascript, jquery 사용',
 							detailEn: 'photoshop, html, css, javascript, jquery',
+							lnk: 'https://www.sktinsight.com/34700',
 						},
 						{
 							title: '포털 내 전체 팝업 개편',

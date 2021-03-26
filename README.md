@@ -29,3 +29,9 @@ SASS는 Global용 scss 파일과, 컴퍼넌트 자체에서만 작동되는 scss
 
 -   외부데이터 연동
 -   스토리북 도입
+
+### Gitlab 도 잘 써요.
+
+비공개라 그렇지 매일같이 사용중이예요.
+
+![2021-03-26 14 29 33](https://user-images.githubusercontent.com/16126002/112586936-fe920b80-8e3f-11eb-894b-ee15b760920f.png)
