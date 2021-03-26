@@ -113,30 +113,41 @@ class App extends Component {
 				},
 				{
 					company: '힘 커뮤니케이션',
+					companyEn: 'Him Communication',
 					date: '2007.10~2008.10',
 					job: '웹에이전시 웹디자인&퍼블리셔',
+					jobEn: 'WebAgency Web Designer&Coder',
 					project: [
 						{
 							title: 'EXR 마이크로사이트 ProgressiveSchool 리뉴얼 ',
-							detail: '전페이지 제작 및 코딩',
+							titleEn: 'Renewal of EXR microsite Progressive School',
+							detail: '전페이지 디자인 및 코딩',
+							detailEn: 'Designing and coding full-pages',
 						},
 						{
 							title: '놀부 브랜드 리뉴얼',
+							titleEn: 'Renewal Nolbu Brand',
 							detail: '서브페이지 디자인 및 전페이지 코딩',
+							detailEn: 'Sub-page design and full-page coding',
 						},
 						{
 							title: 'HAZZYS 리뉴얼',
+							titleEn: 'HAZZYS Renewals',
 							detail: '서브페이지 코딩',
+							detailEn: 'Subpage coding',
 						},
 					],
 				},
 				{
 					company: '피포라인',
+					companyEn: 'P4line',
 					date: '2006.1~2007.9',
 					job: '인터넷사업부 웹디자인&퍼블리셔',
+					jobEn: 'Internet Business Department Web Designer & Coder',
 					project: [
 						{
 							title: '하프코인, 코인100, 현대하이넷 총 3개 사이트 홈페이지 제작',
+							titleEn: 'Homepage production for a total of three sites: Half Coin, Coin100, and Hyundai Hi-Net.',
 						},
 					],
 				},
