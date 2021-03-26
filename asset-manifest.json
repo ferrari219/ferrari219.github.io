@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ferrari219.github.io/static/css/main.88e2d2b3.chunk.css",
-    "main.js": "/ferrari219.github.io/static/js/main.9cd0992d.chunk.js",
-    "main.js.map": "/ferrari219.github.io/static/js/main.9cd0992d.chunk.js.map",
+    "main.css": "/ferrari219.github.io/static/css/main.c2199b28.chunk.css",
+    "main.js": "/ferrari219.github.io/static/js/main.4e1ace98.chunk.js",
+    "main.js.map": "/ferrari219.github.io/static/js/main.4e1ace98.chunk.js.map",
     "runtime-main.js": "/ferrari219.github.io/static/js/runtime-main.278f8a15.js",
     "runtime-main.js.map": "/ferrari219.github.io/static/js/runtime-main.278f8a15.js.map",
     "static/js/2.02840c9d.chunk.js": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.3fd49131.chunk.js": "/ferrari219.github.io/static/js/3.3fd49131.chunk.js",
     "static/js/3.3fd49131.chunk.js.map": "/ferrari219.github.io/static/js/3.3fd49131.chunk.js.map",
     "index.html": "/ferrari219.github.io/index.html",
-    "static/css/main.88e2d2b3.chunk.css.map": "/ferrari219.github.io/static/css/main.88e2d2b3.chunk.css.map",
+    "static/css/main.c2199b28.chunk.css.map": "/ferrari219.github.io/static/css/main.c2199b28.chunk.css.map",
     "static/js/2.02840c9d.chunk.js.LICENSE.txt": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js.LICENSE.txt",
     "static/media/me.aeae3744.jpg": "/ferrari219.github.io/static/media/me.aeae3744.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.278f8a15.js",
     "static/js/2.02840c9d.chunk.js",
-    "static/css/main.88e2d2b3.chunk.css",
-    "static/js/main.9cd0992d.chunk.js"
+    "static/css/main.c2199b28.chunk.css",
+    "static/js/main.4e1ace98.chunk.js"
   ]
 }
