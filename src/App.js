@@ -98,10 +98,11 @@ class App extends Component {
 							detailEn: 'Full-page design and coding',
 						},
 						{
-							title: '박카스 리뉴얼',
+							title: '박카스D 리뉴얼',
 							titleEn: 'Bacchus Renewal',
-							detail: '사내 우수사원 포상, 전 페이지 디자인 및 코딩',
+							detail: 'GDWEB winner prize, 사내 우수사원 포상, 전 페이지 디자인 및 코딩',
 							detailEn: 'Reward for outstanding employees in the company, design and coding of all pages',
+							lnk: 'http://www.gdweb.co.kr/sub/view.asp?displayrow=60&Txt_key=all&Txt_word=&Txt_agnumber=&Txt_fgbn=5&Txt_bcode1=&Txt_gbflag=&Txt_bcode2=030710001&Txt_bcode3=&Txt_bcode4=&Txt_bcode5=&Page=28&str_no=1000',
 						},
 						{
 							title: '교통안전공단 리뉴얼',
