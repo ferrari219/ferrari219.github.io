@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ferrari219.github.io/static/css/main.c2199b28.chunk.css",
-    "main.js": "/ferrari219.github.io/static/js/main.4e1ace98.chunk.js",
-    "main.js.map": "/ferrari219.github.io/static/js/main.4e1ace98.chunk.js.map",
-    "runtime-main.js": "/ferrari219.github.io/static/js/runtime-main.278f8a15.js",
-    "runtime-main.js.map": "/ferrari219.github.io/static/js/runtime-main.278f8a15.js.map",
-    "static/js/2.02840c9d.chunk.js": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js",
-    "static/js/2.02840c9d.chunk.js.map": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js.map",
-    "static/js/3.3fd49131.chunk.js": "/ferrari219.github.io/static/js/3.3fd49131.chunk.js",
-    "static/js/3.3fd49131.chunk.js.map": "/ferrari219.github.io/static/js/3.3fd49131.chunk.js.map",
+    "main.css": "/ferrari219.github.io/static/css/main.7118431e.chunk.css",
+    "main.js": "/ferrari219.github.io/static/js/main.79c66db2.chunk.js",
+    "main.js.map": "/ferrari219.github.io/static/js/main.79c66db2.chunk.js.map",
+    "runtime-main.js": "/ferrari219.github.io/static/js/runtime-main.eea94810.js",
+    "runtime-main.js.map": "/ferrari219.github.io/static/js/runtime-main.eea94810.js.map",
+    "static/js/2.91d232bf.chunk.js": "/ferrari219.github.io/static/js/2.91d232bf.chunk.js",
+    "static/js/2.91d232bf.chunk.js.map": "/ferrari219.github.io/static/js/2.91d232bf.chunk.js.map",
+    "static/js/3.70323b8c.chunk.js": "/ferrari219.github.io/static/js/3.70323b8c.chunk.js",
+    "static/js/3.70323b8c.chunk.js.map": "/ferrari219.github.io/static/js/3.70323b8c.chunk.js.map",
     "index.html": "/ferrari219.github.io/index.html",
-    "static/css/main.c2199b28.chunk.css.map": "/ferrari219.github.io/static/css/main.c2199b28.chunk.css.map",
-    "static/js/2.02840c9d.chunk.js.LICENSE.txt": "/ferrari219.github.io/static/js/2.02840c9d.chunk.js.LICENSE.txt",
+    "static/css/main.7118431e.chunk.css.map": "/ferrari219.github.io/static/css/main.7118431e.chunk.css.map",
+    "static/js/2.91d232bf.chunk.js.LICENSE.txt": "/ferrari219.github.io/static/js/2.91d232bf.chunk.js.LICENSE.txt",
     "static/media/me.aeae3744.jpg": "/ferrari219.github.io/static/media/me.aeae3744.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.278f8a15.js",
-    "static/js/2.02840c9d.chunk.js",
-    "static/css/main.c2199b28.chunk.css",
-    "static/js/main.4e1ace98.chunk.js"
+    "static/js/runtime-main.eea94810.js",
+    "static/js/2.91d232bf.chunk.js",
+    "static/css/main.7118431e.chunk.css",
+    "static/js/main.79c66db2.chunk.js"
   ]
 }
