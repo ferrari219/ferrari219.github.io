@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ferrari219.github.io/static/css/main.0210a25a.chunk.css",
-    "main.js": "/ferrari219.github.io/static/js/main.e4b435ef.chunk.js",
-    "main.js.map": "/ferrari219.github.io/static/js/main.e4b435ef.chunk.js.map",
-    "runtime-main.js": "/ferrari219.github.io/static/js/runtime-main.5a4500ee.js",
-    "runtime-main.js.map": "/ferrari219.github.io/static/js/runtime-main.5a4500ee.js.map",
-    "static/js/2.0c9ba695.chunk.js": "/ferrari219.github.io/static/js/2.0c9ba695.chunk.js",
-    "static/js/2.0c9ba695.chunk.js.map": "/ferrari219.github.io/static/js/2.0c9ba695.chunk.js.map",
-    "static/js/3.316065a2.chunk.js": "/ferrari219.github.io/static/js/3.316065a2.chunk.js",
-    "static/js/3.316065a2.chunk.js.map": "/ferrari219.github.io/static/js/3.316065a2.chunk.js.map",
-    "index.html": "/ferrari219.github.io/index.html",
-    "static/css/main.0210a25a.chunk.css.map": "/ferrari219.github.io/static/css/main.0210a25a.chunk.css.map",
-    "static/js/2.0c9ba695.chunk.js.LICENSE.txt": "/ferrari219.github.io/static/js/2.0c9ba695.chunk.js.LICENSE.txt",
-    "static/media/me.aeae3744.jpg": "/ferrari219.github.io/static/media/me.aeae3744.jpg"
+    "main.css": "/static/css/main.0210a25a.chunk.css",
+    "main.js": "/static/js/main.e4b435ef.chunk.js",
+    "main.js.map": "/static/js/main.e4b435ef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.88b2d9d3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.88b2d9d3.js.map",
+    "static/js/2.0c9ba695.chunk.js": "/static/js/2.0c9ba695.chunk.js",
+    "static/js/2.0c9ba695.chunk.js.map": "/static/js/2.0c9ba695.chunk.js.map",
+    "static/js/3.316065a2.chunk.js": "/static/js/3.316065a2.chunk.js",
+    "static/js/3.316065a2.chunk.js.map": "/static/js/3.316065a2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0210a25a.chunk.css.map": "/static/css/main.0210a25a.chunk.css.map",
+    "static/js/2.0c9ba695.chunk.js.LICENSE.txt": "/static/js/2.0c9ba695.chunk.js.LICENSE.txt",
+    "static/media/me.aeae3744.jpg": "/static/media/me.aeae3744.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a4500ee.js",
+    "static/js/runtime-main.88b2d9d3.js",
     "static/js/2.0c9ba695.chunk.js",
     "static/css/main.0210a25a.chunk.css",
     "static/js/main.e4b435ef.chunk.js"
