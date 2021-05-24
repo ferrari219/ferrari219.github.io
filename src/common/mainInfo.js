@@ -8,7 +8,7 @@ const NameJob = ({ myname, job, lang, checked, onClick }) => {
 		<div className={style.nameWrap}>
 			<div className={style.name}>{myname}</div>
 			<div className={style.job}>{job}</div>
-			<ChangeLangBtn lang={lang} checked={checked} onClick={onClick} />
+			{/* <ChangeLangBtn lang={lang} checked={checked} onClick={onClick} /> */}
 		</div>
 	);
 };

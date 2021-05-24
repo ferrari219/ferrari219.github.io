@@ -8,11 +8,13 @@
 
 ![resume](https://user-images.githubusercontent.com/16126002/112567066-84538e00-8e23-11eb-83cb-75453741a8f6.jpg)
 
-### Develpe story
+### Develper story
 
 ```
 React.js
 node-sass
+craco
+gh-pages
 
 리액트로 만들었고, 스타일은 SASS를 이용해 제작했습니다.
 SASS는 Global용 scss 파일과, 컴퍼넌트 자체에서만 작동되는 scss를 넣어 재사용이 가능하면서
