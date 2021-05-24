@@ -7,10 +7,11 @@ import SubInfo from '@/common/subInfo';
 
 class App extends Component {
 	state = {
+		lang: 'korean',
+		checked: true,
 		mainInfo: {
 			myname: 'Sung-ho Jeon',
 			job: 'Frontend Developer',
-			lang: 'korean',
 		},
 		subInfo: {
 			iam: '디자인, 개발 모두 다하는 욕심 많은 프론트엔드 개발자 전성호 입니다.',
@@ -159,15 +160,38 @@ class App extends Component {
 			],
 		},
 	};
+	handleChangeLang = (e) => {
+		// alert(e.checked === true);
+		const { checked } = this.state.mainInfo;
+		if (e.checked === true) {
+			this.setState({
+				lang: 'Korean',
+				checked: !checked,
+			});
+		} else {
+			this.setState({
+				lang: 'English',
+				checked: !checked,
+			});
+		}
+		e.checked = !e.checked;
+		// console.log(e.checked);
+	};
+
+	componentDidUpdate(prevState) {
+		return prevState.checked !== this.state.checked;
+	}
+
 	render() {
-		const { mainInfo, subInfo } = this.state;
+		const { lang, checked, mainInfo, subInfo } = this.state;
+		const { handleChangeLang } = this;
 		return (
 			<main className={style.container}>
 				{/* <div className={style.refer}>
 					<img src={refer} alt="refer-image" />
 				</div> */}
-				<MainInfo mainInfo={mainInfo} />
-				<SubInfo subInfo={subInfo} />
+				<MainInfo mainInfo={mainInfo} lang={lang} checked={checked} onClick={() => handleChangeLang(this)} />
+				<SubInfo subInfo={subInfo} checked={checked} />
 			</main>
 		);
 	}
