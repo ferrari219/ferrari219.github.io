@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './mainInfo.module.scss';
 import me from 'img/me.jpg';
-import ChangeLangBtn from 'comp/ChangeLangBtn';
 
 const NameJob = ({ myname, job, lang, checked, onClick }) => {
 	return (
@@ -23,7 +22,13 @@ const mainInfo = ({ lang, checked, mainInfo, onClick }) => {
 			</div>
 			<div className="grid10">
 				<h1 className="sr-only">My MainInfo</h1>
-				<NameJob myname={mainInfo.myname} job={mainInfo.job} lang={lang} checked={checked} onClick={onClick} />
+				<NameJob
+					myname={mainInfo.myname}
+					job={mainInfo.job}
+					lang={lang}
+					checked={checked}
+					onClick={onClick}
+				/>
 			</div>
 		</div>
 	);
