@@ -1,16 +1,16 @@
-import { menuApi, profileApi } from 'api';
+import { profileApi } from 'api';
 import React, { Component } from 'react';
 import RightMenuPresenter from './RightMenuPresenter';
 
 interface IrightmnuState {
-	category: Array<object> | null;
+	// category: Array<object> | null;
 	iam: Array<object> | null;
 	error: string | null;
 }
 
 class RightMenuContainer extends Component<{}, IrightmnuState> {
 	state = {
-		category: null,
+		// category: null,
 		// loading: true,
 		iam: null,
 		error: null,
@@ -18,11 +18,11 @@ class RightMenuContainer extends Component<{}, IrightmnuState> {
 
 	async componentDidMount() {
 		try {
-			const { data: category } = await menuApi.category();
+			// const { data: category } = await menuApi.category();
 			const { data: iam } = await profileApi.iam();
 			// console.log(category);
 			this.setState({
-				category,
+				// category,
 				iam,
 			});
 		} catch {
@@ -33,8 +33,8 @@ class RightMenuContainer extends Component<{}, IrightmnuState> {
 	}
 
 	render() {
-		const { category, iam } = this.state;
-		return <RightMenuPresenter category={category} iam={iam} />;
+		const { iam } = this.state;
+		return <RightMenuPresenter iam={iam} />;
 	}
 }
 

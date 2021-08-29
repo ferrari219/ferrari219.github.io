@@ -1,14 +1,17 @@
-import Menus from 'components/Menus';
 import MyName from 'components/MyName';
 import React from 'react';
 import styled from 'styled-components';
 import { SrOnly } from 'components/styles/globalStyle';
+import { Link } from 'react-router-dom';
 import { ReactComponent as Close } from 'assets/svg/close.svg';
+import { ReactComponent as Iam } from 'assets/svg/iam.svg';
+import { ReactComponent as Career } from 'assets/svg/career.svg';
+import { ReactComponent as Portfolio } from 'assets/svg/portfolio.svg';
 
 const Div = styled.div`
 	position: relative;
 	width: 100vw;
-	max-width: 89rem;
+	/* max-width: 89rem; */
 	height: 100vh;
 	color: ${({ theme }) => theme.colors.gray3};
 	button {
@@ -28,6 +31,28 @@ const Wrap = styled.div`
 	margin: 0 0 0 auto;
 	background-color: ${({ theme }) => theme.colors.grayF};
 	z-index: 2;
+	ul {
+		padding: 3rem;
+		li {
+			a {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				padding: 1rem 0;
+
+				svg {
+					flex: 0 0 3rem;
+					width: 100%;
+					height: auto;
+					fill: ${({ theme }) => theme.colors.gray6};
+				}
+				span {
+					flex: 1;
+					padding: 0 2rem;
+				}
+			}
+		}
+	}
 `;
 const Dimmed = styled.div`
 	position: absolute;
@@ -50,12 +75,12 @@ const handleCloseBtn = (e: React.SyntheticEvent) => {
 };
 
 interface IrightmnuProps {
-	category: object | null;
+	// category: object | null;
 	iam: object | null;
 }
 
 const RightMenuPresenter: React.FunctionComponent<IrightmnuProps> = ({
-	category,
+	// category,
 	iam,
 }) => {
 	// console.log(category);
@@ -67,14 +92,26 @@ const RightMenuPresenter: React.FunctionComponent<IrightmnuProps> = ({
 			</button>
 			<Wrap>
 				<MyName {...iam} />
-				<dl>
-					{/* {JSON.stringify(category)} */}
-
-					<Menus {...category} />
-					{/* <dt>I am...</dt>
-        <dd>Skill</dd>
-        <dd>Contact</dd> */}
-				</dl>
+				<ul>
+					<li>
+						<Link to="/iam">
+							<Iam />
+							<span>I am...</span>
+						</Link>
+					</li>
+					<li>
+						<Link to="/career">
+							<Career />
+							<span>Career</span>
+						</Link>
+					</li>
+					<li>
+						<Link to="/portfolio">
+							<Portfolio />
+							<span>Portfolio</span>
+						</Link>
+					</li>
+				</ul>
 			</Wrap>
 			<Dimmed />
 		</Div>
