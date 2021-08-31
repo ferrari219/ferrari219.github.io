@@ -20,6 +20,7 @@ const Div = styled.div`
 		right: 2rem;
 		z-index: 3;
 		svg {
+			flex: 0 0 2.5rem;
 			fill: ${({ theme }) => theme.colors.gray3} !important;
 		}
 	}

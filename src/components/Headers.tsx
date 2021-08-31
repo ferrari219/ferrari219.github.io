@@ -29,6 +29,7 @@ const Left = styled.div<{ dark?: boolean }>`
 		background-color: transparent;
 		border: none;
 		svg {
+			flex: 0 0 2.5rem;
 			width: 100%;
 			height: auto;
 			fill: ${(props) =>
@@ -81,6 +82,7 @@ const Right = styled.div<{ dark?: boolean }>`
 		background-color: transparent;
 		border: none;
 		svg {
+			flex: 0 0 2.5rem;
 			width: 100%;
 			height: auto;
 			fill: ${(props) =>
