@@ -1,0 +1,101 @@
+@import 'scss/color';
+@import 'scss/grid';
+
+.title {
+	position: relative;
+	display: flex;
+	align-items: center;
+	// margin-top: 7rem;
+	padding: 0 2rem 0 7rem;
+	background: #ebebeb;
+	font-size: 2.8rem;
+	letter-spacing: 0;
+	@include mobile-device {
+		padding: 0 2rem 0 3rem;
+	}
+	&::before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		content: '';
+		width: 1.5rem;
+		height: 100%;
+		background: $pc;
+	}
+}
+.content {
+	padding: 4rem 5rem 6rem 7rem;
+	color: $gc1;
+	@include mobile-device {
+		padding: 4rem 2rem 6rem 3rem;
+	}
+	.gridDl1 {
+		//1단구성
+		padding-bottom: 2rem;
+		dt {
+			font-size: 2.1rem;
+			font-weight: 400;
+		}
+		dd {
+			margin-bottom: 2rem;
+		}
+	}
+	.gridDl2 {
+		//2단구성
+		overflow: hidden;
+		width: 100%;
+		padding-bottom: 2rem;
+		dt {
+			float: left;
+			width: 30%;
+			word-break: keep-all;
+			padding-right: 1rem;
+			span {
+				display: block;
+				padding-top: 0.5rem;
+				font-size: 1.4rem;
+			}
+			strong {
+				display: block;
+				font-size: 1.8rem;
+			}
+			@include mobile-device {
+				float: none;
+				width: 100%;
+				margin-bottom: 2rem;
+				padding-bottom: 1rem;
+				border-bottom: 1px solid #ddd;
+			}
+		}
+		dd {
+			float: left;
+			width: 70%;
+			padding-bottom: 2rem;
+			strong {
+				display: block;
+				font-size: 2rem;
+				font-weight: 400;
+				color: $pc;
+			}
+			div {
+				font-weight: 200;
+				word-break: keep-all;
+				color: lighten($gc2, 10%);
+			}
+			@include mobile-device {
+				width: 100%;
+				float: none;
+			}
+		}
+	}
+}
+
+.iswhite {
+	.title {
+		background: #434753;
+		color: $wc1;
+	}
+	.content {
+		color: $wc1;
+	}
+}
