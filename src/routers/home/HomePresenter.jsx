@@ -1,7 +1,13 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
-const HomePresenter = () => {
+const HomePresenter = ({ state }) => {
+	console.log(state);
 	return <div>HomePresenter</div>;
 };
 
-export default HomePresenter;
+const mapStateToProps = (state, ownProps) => {
+	return { state };
+};
+
+export default connect(mapStateToProps)(HomePresenter);
