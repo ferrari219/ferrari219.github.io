@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+### I am
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+디자인도 개발도 좋아하는 프론트엔드 개발자 전성호 입니다.
 
-## Available Scripts
+### Hompage
 
-In the project directory, you can run:
+[이력서 홈페이지 보기](http://ferrari219.github.io)
 
-### `npm start`
+![resume](https://user-images.githubusercontent.com/16126002/112567066-84538e00-8e23-11eb-83cb-75453741a8f6.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install Library
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   [x] React.js
+-   [x] react-router-dom@v6
+-   [x] storybook
+-   [x] gh-pages
 
-### `npm test`
+### 작업 시 이슈, 해결방법
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 이슈
 
-### `npm run build`
+-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 해결
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 왜 유니콘인가요?
 
-### `npm run eject`
+-   디자인부터 개발까지 모든 과정을 구현할수 있는 사람을 해외에서는 '유니콘'이라고 한다고 합니다. 아직 부족하지만 저는 그런 사람이 되고 싶습니다.
+-   전체 프로세스를 알아야 협업하는데 좋을것 같았습니다.
+-   날개 달린 말이 하늘위로 올라가는 태몽을 꾸셨다 합니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Gitlab 도 잘 써요.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+비공개라 그렇지 매일같이 사용중이예요.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![2021-03-26 14 29 33](https://user-images.githubusercontent.com/16126002/112586936-fe920b80-8e3f-11eb-894b-ee15b760920f.png)
