@@ -16,8 +16,8 @@ const theme = {
 	},
 	shadow: {
 		// https://getcssscan.com/css-box-shadow-examples
-		0: 'rgba(149, 157, 165, 0.2) 0px 8px 24px;',
-		7: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;',
+		zero: 'rgba(149, 157, 165, 0.2) 0px 8px 24px;',
+		deep: 'rgba(0, 0, 0, 0.8) 0px 7px 29px 0px;',
 	},
 };
 

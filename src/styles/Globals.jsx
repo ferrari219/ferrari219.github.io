@@ -21,7 +21,11 @@ const Globals = () => {
 					padding: 0;
 				}
 				body {
-					background: #abaeb7 url('assets/img/');
+					height: 100vh;
+					background: #abaeb7
+						url('https://ferrari219.github.io/data/assets/img/bg.jpg')
+						no-repeat center center;
+					background-size: cover;
 					a {
 						text-decoration: none;
 						color: inherit;
