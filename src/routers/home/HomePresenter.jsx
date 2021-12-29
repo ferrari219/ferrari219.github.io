@@ -2,8 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 const HomePresenter = ({ state }) => {
-	console.log(state);
-	return <div>HomePresenter</div>;
+	return <section>home</section>;
 };
 
 const mapStateToProps = (state, ownProps) => {
