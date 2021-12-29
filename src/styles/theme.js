@@ -1,7 +1,7 @@
 //theme.ts
 const theme = {
 	color: {
-		main: '#0276F9',
+		main: '#705AEC',
 		default: '#d9d9d9',
 		active: '#486FF2',
 		error: '#d95959', //에러났을때
