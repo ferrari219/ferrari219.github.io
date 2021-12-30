@@ -1,9 +1,14 @@
 import React, { createContext } from 'react';
 
-const ModeContext = createContext();
+export const ModeContext = createContext();
 
-const ModeStore = (props) => {
-	return <div></div>;
+const ModeStore = ({ children }) => {
+	const modes = {
+		blk: false,
+	};
+	return (
+		<ModeContext.Provider value={modes}>{children}</ModeContext.Provider>
+	);
 };
 
 export default ModeStore;

@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
+import { ModeContext } from 'store/mode';
 
-const Cont = ({ contP, contDt, contDd, blk }) => {
+const Cont = ({ contP, contDt, contDd }) => {
+	const context = useContext(ModeContext);
 	return (
-		<div css={contStyle} className={blk ? 'black' : ''}>
+		<div css={contStyle} className={context.blk ? 'black' : ''}>
 			{contP && <p>{contP}</p>}
 			{contDt && (
 				<dl>
@@ -35,7 +37,6 @@ const contStyle = css`
 	/* background-color: #fff; */
 	color: ${theme.color.def};
 	&.black {
-		/* background-color: ${theme.color.bg.dark}; */
 		color: #fff;
 		dt,
 		dd {
