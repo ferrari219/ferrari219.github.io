@@ -26,10 +26,10 @@ const h3Style = css`
 	position: relative;
 	padding: 0 2rem 0 7rem;
 	font-size: ${theme.size.xlg};
-	background-color: ${theme.color.bg.light};
+	background-color: ${theme.color.light.bg};
 	color: ${theme.color.def};
 	&.black {
-		background-color: ${theme.color.bg.dark};
+		background-color: ${theme.color.dark.bg};
 		color: #fff;
 	}
 	&::before {

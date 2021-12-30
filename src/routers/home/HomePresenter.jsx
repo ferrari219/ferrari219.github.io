@@ -4,8 +4,16 @@ import { css } from '@emotion/react';
 import { connect } from 'react-redux';
 import theme from 'styles/theme';
 
+import Title from 'components/01_Atoms/Title';
+import Cont from 'components/01_Atoms/Cont';
+
 const HomePresenter = ({ state }) => {
-	return <section css={secStyle}>home</section>;
+	return (
+		<section css={secStyle}>
+			<Title />
+			<Cont />
+		</section>
+	);
 };
 
 const secStyle = css`

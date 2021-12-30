@@ -3,15 +3,23 @@ const theme = {
 	color: {
 		main: '#705AEC',
 		def: '#363636',
-		bg: {
-			dark: '#434753',
-			light: '#ebebeb',
+		light: {
+			bg: '#ebebeb',
+			btn: {
+				def: '#d9d9d9',
+				act: '#486FF2',
+				err: '#d95959', //에러났을때
+				suc: '#1AB987', //성공했을때
+			},
 		},
-		btn: {
-			def: '#d9d9d9',
-			act: '#486FF2',
-			err: '#d95959', //에러났을때
-			suc: '#1AB987', //성공했을때
+		dark: {
+			bg: '#434753',
+			btn: {
+				def: '#d9d9d9',
+				act: '#486FF2',
+				err: '#d95959', //에러났을때
+				suc: '#1AB987', //성공했을때
+			},
 		},
 	},
 	size: {
