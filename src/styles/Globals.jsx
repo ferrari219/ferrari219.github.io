@@ -46,51 +46,51 @@ const Globals = () => {
 					}
 					@font-face {
 						font-family: 'NotoSansKR';
-						src: url(https://ferrari219.github.io/fonts/NotoSansCJKkr-DemiLight.woff2)
+						src: url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-DemiLight.woff2)
 								format('woff2'),
-							url(https://ferrari219.github.io/fonts/NotoSansCJKkr-DemiLight.woff)
+							url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-DemiLight.woff)
 								format('woff'),
-							url(https://ferrari219.github.io/fonts/NotoSansCJKkr-DemiLight.otf)
+							url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-DemiLight.otf)
 								format('opentype');
 						font-weight: 400;
 					}
 					@font-face {
 						font-family: 'NotoSansKR';
-						src: url(https://ferrari219.github.io/fonts/NotoSansCJKkr-Medium.woff2)
+						src: url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-Medium.woff2)
 								format('woff2'),
-							url(https://ferrari219.github.io/fonts/NotoSansCJKkr-Medium.woff)
+							url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-Medium.woff)
 								format('woff'),
-							url(https://ferrari219.github.io/fonts/NotoSansCJKkr-Medium.otf)
+							url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-Medium.otf)
 								format('opentype');
 						font-weight: 600;
 					}
 					@font-face {
 						font-family: 'NotoSansKR';
-						src: url(https://ferrari219.github.io/fonts/NotoSansCJKkr-Bold.woff2)
+						src: url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-Bold.woff2)
 								format('woff2'),
-							url(https://ferrari219.github.io/fonts/NotoSansCJKkr-Bold.woff)
+							url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-Bold.woff)
 								format('woff'),
-							url(https://ferrari219.github.io/fonts/NotoSansCJKkr-Bold.otf)
+							url(https://ferrari219.github.io/data/assets/fonts/NotoSansCJKkr-Bold.otf)
 								format('opentype');
 						font-weight: 700;
 					}
 					@font-face {
 						font-family: 'Roboto';
-						src: url(https://ferrari219.github.io/fonts/Roboto-Regular.woff2)
+						src: url(https://ferrari219.github.io/data/assets/fonts/Roboto-Regular.woff2)
 								format('woff2'),
-							url(https://ferrari219.github.io/fonts/Roboto-Regular.woff)
+							url(https://ferrari219.github.io/data/assets/fonts/Roboto-Regular.woff)
 								format('woff'),
-							url(https://ferrari219.github.io/fonts/Roboto-Regular.eot)
+							url(https://ferrari219.github.io/data/assets/fonts/Roboto-Regular.eot)
 								format('embedded-opentype');
 						font-weight: 400;
 					}
 					@font-face {
 						font-family: 'Roboto';
-						src: url(https://ferrari219.github.io/fonts/Roboto-Bold.woff2)
+						src: url(https://ferrari219.github.io/data/assets/fonts/Roboto-Bold.woff2)
 								format('woff2'),
-							url(https://ferrari219.github.io/fonts/Roboto-Bold.woff)
+							url(https://ferrari219.github.io/data/assets/fonts/Roboto-Bold.woff)
 								format('woff'),
-							url(https://ferrari219.github.io/fonts/Roboto-Bold.eot)
+							url(https://ferrari219.github.io/data/assets/fonts/Roboto-Bold.eot)
 								format('embedded-opentype');
 						font-weight: 600;
 					}
