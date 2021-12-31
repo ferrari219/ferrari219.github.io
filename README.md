@@ -13,17 +13,16 @@
 -   [x] React.js
 -   [x] react-router-dom@v6
 -   [x] storybook
+-   [x] context
 -   [x] gh-pages
 
 ### 작업 시 이슈, 해결방법
 
 #### 이슈
 
--
+다크모드를 설정하려고 했더니 일일이 props로 전달하기 불편했습니다.
 
-#### 해결
-
--
+-   해결: Context Api로 전역값을 설정했습니다.
 
 ### 왜 유니콘인가요?
 

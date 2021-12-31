@@ -1,14 +1,17 @@
 import Globals from '../src/styles/Globals';
 import theme from '../src/styles/theme';
 import { ThemeProvider } from '@emotion/react';
+import ModeStore from '../src/store/mode';
 
 export const decorators = [
 	(Story) => (
 		<>
-			<ThemeProvider theme={theme}>
-				<Globals />
-				<Story />
-			</ThemeProvider>
+			<ModeStore>
+				<ThemeProvider theme={theme}>
+					<Globals />
+					<Story />
+				</ThemeProvider>
+			</ModeStore>
 		</>
 	),
 ];

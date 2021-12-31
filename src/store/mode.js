@@ -4,7 +4,7 @@ export const ModeContext = createContext();
 
 const ModeStore = ({ children }) => {
 	const modes = {
-		blk: false,
+		blk: true,
 	};
 	return (
 		<ModeContext.Provider value={modes}>{children}</ModeContext.Provider>

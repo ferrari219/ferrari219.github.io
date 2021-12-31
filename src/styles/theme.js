@@ -14,6 +14,7 @@ const theme = {
 		},
 		dark: {
 			bg: '#434753',
+			bg2: '#2C323E',
 			btn: {
 				def: '#d9d9d9',
 				act: '#486FF2',

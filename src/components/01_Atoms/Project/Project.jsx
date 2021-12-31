@@ -1,34 +1,44 @@
-import React from 'react';
+import React, { useContext } from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
+import { ModeContext } from 'store/mode';
 
-const Project = ({ contP, contDt, contDd }) => {
+const Project = ({ contDt, contDd }) => {
+	const context = useContext(ModeContext);
 	return (
-		<dl css={projectStyle}>
-			<dt></dt>
-			<dd></dd>
+		<dl css={projectStyle} className={context.blk ? 'black' : ''}>
+			<dt>{contDt}</dt>
+			<dd>{contDd}</dd>
 		</dl>
 	);
 };
 
 Project.defaultProps = {
-	contP: 'Lorem ipsum',
 	contDt: 'Lorem ipsum',
 	contDd: 'Lorem ipsum',
 };
 
 Project.propTypes = {
-	contP: PropTypes.string,
 	contDt: PropTypes.string,
 	contDd: PropTypes.string,
 };
 
 const projectStyle = css`
-	padding: 4rem 5rem 6rem 7rem;
-	font-size: ${theme.size.base};
-	color: ${theme.color.def};
+	margin: 0;
+	padding: 0.5rem 0;
+	dt {
+		font-size: ${theme.size.base};
+		color: ${theme.color.def};
+	}
+	dd {
+		margin: inherit;
+		padding: inherit;
+		font-size: ${theme.size.sm};
+		color: #6c6c6c;
+	}
+	background-color: #fff;
 `;
 
 export default Project;
