@@ -5,15 +5,15 @@ import { connect } from 'react-redux';
 import theme from 'styles/theme';
 import { ModeContext } from 'store/mode';
 
-import Title from 'components/01_Atoms/Title';
-import Cont from 'components/01_Atoms/Cont';
+import Top from 'components/03_Organisms/Top';
+import Body from 'components/03_Organisms/Body';
 
 const HomePresenter = ({ state }) => {
 	const context = useContext(ModeContext);
 	return (
 		<section css={secStyle} className={context.blk ? 'black' : ''}>
-			<Title />
-			<Cont />
+			<Top />
+			<Body />
 		</section>
 	);
 };
@@ -21,7 +21,7 @@ const HomePresenter = ({ state }) => {
 const secStyle = css`
 	width: 100%;
 	max-width: 100rem;
-	height: 90vh;
+	/* height: 90vh; */
 	background-color: #fff;
 	margin: 5rem auto;
 	box-shadow: ${theme.shadow.zero};

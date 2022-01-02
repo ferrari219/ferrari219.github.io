@@ -20,11 +20,11 @@ const Cont = ({ contP, contDt, contDd }) => {
 	);
 };
 
-Cont.defaultProps = {
-	contP: 'Lorem ipsum',
-	contDt: 'Lorem ipsum',
-	contDd: 'Lorem ipsum',
-};
+// Cont.defaultProps = {
+// 	contP: 'Lorem ipsum',
+// 	contDt: 'Lorem ipsum',
+// 	contDd: 'Lorem ipsum',
+// };
 
 Cont.propTypes = {
 	contP: PropTypes.string,
@@ -33,11 +33,12 @@ Cont.propTypes = {
 };
 
 const contStyle = css`
+	width: 100%;
 	font-size: ${theme.size.base};
-	background-color: #fff;
+	/* background-color: #fff; */
 	color: ${theme.color.def};
 	&.black {
-		background-color: ${theme.color.dark.bg2};
+		/* background-color: ${theme.color.dark.bg2}; */
 		color: #fff;
 		dt,
 		dd {

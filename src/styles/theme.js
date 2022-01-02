@@ -35,6 +35,10 @@ const theme = {
 		zero: 'rgba(149, 157, 165, 0.2) 0px 8px 24px;',
 		deep: 'rgba(0, 0, 0, 0.8) 0px 7px 29px 0px;',
 	},
+	grid: {
+		g1: '1/16*100%',
+		g6: '6/16*100%',
+	},
 };
 
 export default theme;

@@ -27,6 +27,8 @@ Title.propTypes = {
 
 const h3Style = css`
 	position: relative;
+	width: 100%;
+	margin: 0;
 	padding: 0 2rem 0 7rem;
 	font-size: ${theme.size.xlg};
 	background-color: ${theme.color.light.bg};
