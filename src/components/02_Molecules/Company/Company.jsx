@@ -3,12 +3,10 @@ import React, { useContext } from 'react';
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
-import { ModeContext } from 'store/mode';
 
-const Company = ({ contDt, contDd }) => {
-	const context = useContext(ModeContext);
+const Company = ({ contDt, contDd, blk }) => {
 	return (
-		<div css={CompanyStyle} className={context.blk ? 'black' : ''}>
+		<div css={CompanyStyle} className={blk ? 'black' : ''}>
 			<div className="left">left</div>
 			<div className="right">right</div>
 		</div>

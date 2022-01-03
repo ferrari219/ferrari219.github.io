@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
@@ -6,28 +6,30 @@ import PropTypes from 'prop-types';
 import GWrap from 'components/02_Molecules/GWrap';
 import Title from 'components/01_Atoms/Title';
 import Cont from 'components/01_Atoms/Cont';
+import { ModeContext } from 'store/mode';
 
 const Body = ({}) => {
+	const context = useContext(ModeContext);
 	return (
 		<section css={sectionStyle}>
 			<div className="left">
 				<GWrap>
-					<Title ttl="Skills" />
-					<Cont contP="test" />
+					<Title ttl="Skills" blk={context.blk ? false : true} />
+					<Cont contP="test" blk={context.blk ? false : true} />
 				</GWrap>
 				<GWrap>
-					<Title ttl="Contact" />
-					<Cont contP="test" />
+					<Title ttl="Contact" blk={context.blk ? false : true} />
+					<Cont contP="test" blk={context.blk ? false : true} />
 				</GWrap>
 			</div>
 			<div className="right">
 				<GWrap>
-					<Title ttl="I am" />
-					<Cont contP="test" />
+					<Title ttl="I am" blk={context.blk ? true : false} />
+					<Cont contP="test" blk={context.blk ? true : false} />
 				</GWrap>
 				<GWrap>
-					<Title ttl="Experience" />
-					<Cont contP="test" />
+					<Title ttl="Experience" blk={context.blk ? true : false} />
+					<Cont contP="test" blk={context.blk ? true : false} />
 				</GWrap>
 			</div>
 		</section>

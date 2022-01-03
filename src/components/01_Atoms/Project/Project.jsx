@@ -3,12 +3,10 @@ import React, { useContext } from 'react';
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
-import { ModeContext } from 'store/mode';
 
-const Project = ({ contDt, contDd }) => {
-	const context = useContext(ModeContext);
+const Project = ({ contDt, contDd, blk }) => {
 	return (
-		<dl css={projectStyle} className={context.blk ? 'black' : ''}>
+		<dl css={projectStyle} className={blk ? 'black' : ''}>
 			<dt>{contDt}</dt>
 			<dd>{contDd}</dd>
 		</dl>

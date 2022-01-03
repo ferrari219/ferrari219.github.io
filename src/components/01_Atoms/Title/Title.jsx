@@ -3,13 +3,10 @@ import React, { useContext } from 'react';
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
-import { ModeContext } from 'store/mode';
 
-const Title = ({ ttl }) => {
-	const context = useContext(ModeContext);
-	console.log(context);
+const Title = ({ ttl, blk }) => {
 	return (
-		<h3 css={h3Style} className={context.blk ? 'black' : ''}>
+		<h3 css={h3Style} className={blk ? 'black' : ''}>
 			{ttl}
 		</h3>
 	);

@@ -3,12 +3,10 @@ import React, { useContext } from 'react';
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
-import { ModeContext } from 'store/mode';
 
-const Cont = ({ contP, contDt, contDd }) => {
-	const context = useContext(ModeContext);
+const Cont = ({ contP, contDt, contDd, blk }) => {
 	return (
-		<div css={contStyle} className={context.blk ? 'black' : ''}>
+		<div css={contStyle} className={blk ? 'black' : ''}>
 			{contP && <p>{contP}</p>}
 			{contDt && (
 				<dl>
