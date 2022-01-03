@@ -8,11 +8,11 @@ import Title from 'components/01_Atoms/Title';
 import Cont from 'components/01_Atoms/Cont';
 import { ModeContext } from 'store/mode';
 
-const Body = ({}) => {
+const Body = () => {
 	const context = useContext(ModeContext);
 	return (
 		<section css={sectionStyle}>
-			<div className="left">
+			<div className={['left', context.blk ? 'black' : ''].join(' ')}>
 				<GWrap>
 					<Title ttl="Skills" blk={context.blk ? false : true} />
 					<Cont contP="test" blk={context.blk ? false : true} />
@@ -53,11 +53,23 @@ const sectionStyle = css`
 		flex: 6;
 		padding-top: 6rem;
 		background-color: ${theme.color.dark.bg2};
+		&.black {
+			background-color: ${theme.color.light.bg2};
+		}
 	}
 	.right {
 		flex: 10;
 	}
 	@media only screen and (max-width: 768px) {
+		display: block;
+		.left {
+			margin: 0;
+			padding: 0;
+		}
+		.right {
+			margin: 0;
+			padding: 0;
+		}
 	}
 `;
 

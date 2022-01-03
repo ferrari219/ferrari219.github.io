@@ -5,6 +5,7 @@ const theme = {
 		def: '#363636',
 		light: {
 			bg: '#ebebeb',
+			bg2: '#f6f6f6',
 			btn: {
 				def: '#d9d9d9',
 				act: '#486FF2',

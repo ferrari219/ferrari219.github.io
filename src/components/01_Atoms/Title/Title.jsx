@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
@@ -42,6 +42,10 @@ const h3Style = css`
 		width: 1.5rem;
 		height: 100%;
 		background-color: ${theme.color.main};
+	}
+	@media only screen and (max-width: 768px) {
+		padding: 0 3rem;
+		font-size: ${theme.size.lg};
 	}
 `;
 

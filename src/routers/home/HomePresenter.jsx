@@ -28,6 +28,9 @@ const secStyle = css`
 	&.black {
 		background-color: ${theme.color.dark.bg2};
 	}
+	@media only screen and (max-width: 768px) {
+		margin: 2vw auto;
+	}
 `;
 
 const mapStateToProps = (state, ownProps) => {

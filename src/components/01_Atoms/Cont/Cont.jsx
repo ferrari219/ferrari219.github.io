@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
@@ -44,6 +44,7 @@ const contStyle = css`
 		}
 	}
 	p {
+		margin: 0;
 		padding: 4rem 5rem 6rem 7rem;
 	}
 	dl {
@@ -58,6 +59,12 @@ const contStyle = css`
 			padding: 0.2rem 0;
 			font-size: ${theme.size.sm};
 			color: #666;
+		}
+	}
+	@media only screen and (max-width: 768px) {
+		p {
+			margin: 0;
+			padding: 2rem 3rem 3rem 3rem;
 		}
 	}
 `;
