@@ -1,37 +1,18 @@
-import React, { useContext } from 'react';
-/** @jsxImportSource @emotion/react */
-import { css } from '@emotion/react';
+import React from 'react';
 import { connect } from 'react-redux';
-import theme from 'styles/theme';
-import { ModeContext } from 'store/mode';
 
+import Canvas from 'components/02_Molecules/Canvas';
 import Top from 'components/03_Organisms/Top';
 import Body from 'components/03_Organisms/Body';
 
 const HomePresenter = ({ state }) => {
-	const context = useContext(ModeContext);
 	return (
-		<section css={secStyle} className={context.blk ? 'black' : ''}>
+		<Canvas>
 			<Top />
 			<Body />
-		</section>
+		</Canvas>
 	);
 };
-
-const secStyle = css`
-	width: 100%;
-	max-width: 100rem;
-	/* height: 90vh; */
-	background-color: #fff;
-	margin: 5rem auto;
-	box-shadow: ${theme.shadow.deep};
-	&.black {
-		background-color: ${theme.color.dark.bg2};
-	}
-	@media only screen and (max-width: 768px) {
-		margin: 2vw auto;
-	}
-`;
 
 const mapStateToProps = (state, ownProps) => {
 	return { state };

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
@@ -36,7 +36,7 @@ const projectStyle = css`
 		font-size: ${theme.size.sm};
 		color: #6c6c6c;
 	}
-	background-color: #fff;
+	/* background-color: #fff; */
 `;
 
 export default Project;

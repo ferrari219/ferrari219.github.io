@@ -8,4 +8,7 @@ export default {
 const Template = (args) => <Project {...args} />;
 
 export const Overview = Template.bind({});
-Overview.args = {};
+Overview.args = {
+	contDt: 'Lorem ipsum',
+	contDd: 'Lorem ipsum',
+};
