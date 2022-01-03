@@ -34,7 +34,7 @@ const theme = {
 	shadow: {
 		// https://getcssscan.com/css-box-shadow-examples
 		zero: 'rgba(149, 157, 165, 0.2) 0px 8px 24px;',
-		deep: 'rgba(0, 0, 0, 0.8) 0px 7px 29px 0px;',
+		deep: 'rgba(0, 0, 0, 0.6) 0px 7px 29px 0px;',
 	},
 };
 

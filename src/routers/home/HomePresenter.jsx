@@ -24,7 +24,7 @@ const secStyle = css`
 	/* height: 90vh; */
 	background-color: #fff;
 	margin: 5rem auto;
-	box-shadow: ${theme.shadow.zero};
+	box-shadow: ${theme.shadow.deep};
 	&.black {
 		background-color: ${theme.color.dark.bg2};
 	}
