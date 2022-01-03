@@ -5,17 +5,11 @@ import theme from 'styles/theme';
 import PropTypes from 'prop-types';
 
 const GWrap = ({ children }) => {
-	return (
-		<div css={GWrapStyle}>
-			{children}
-			{/* <Title />
-			<Cont contP="test" /> */}
-		</div>
-	);
+	return <div css={GWrapStyle}>{children}</div>;
 };
 
 GWrap.propTypes = {
-	children: PropTypes.element,
+	children: PropTypes.node,
 };
 
 const GWrapStyle = css`
