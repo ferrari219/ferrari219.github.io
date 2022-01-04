@@ -1,17 +1,17 @@
 import Globals from '../src/styles/Globals';
 import theme from '../src/styles/theme';
 import { ThemeProvider } from '@emotion/react';
-import ModeStore from '../src/store/mode';
+import Store from '../src/store/store';
 
 export const decorators = [
 	(Story) => (
 		<>
-			<ModeStore>
+			<Store>
 				<ThemeProvider theme={theme}>
 					<Globals />
 					<Story />
 				</ThemeProvider>
-			</ModeStore>
+			</Store>
 		</>
 	),
 ];

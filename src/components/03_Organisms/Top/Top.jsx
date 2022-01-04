@@ -3,11 +3,11 @@ import React, { useContext } from 'react';
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
-import { ModeContext } from 'store/mode';
+import { StoreContext } from 'store/store';
 import Me from 'assets/img/me.jpg';
 
 const Top = ({ name, job }) => {
-	const context = useContext(ModeContext);
+	const context = useContext(StoreContext);
 	return (
 		<section css={sectionStyle} className={context.blk ? 'black' : ''}>
 			<div className="left">

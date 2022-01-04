@@ -1,7 +1,6 @@
 import React from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import theme from 'styles/theme';
 import PropTypes from 'prop-types';
 
 const GWrap = ({ children }) => {

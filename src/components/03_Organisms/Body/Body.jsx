@@ -6,10 +6,10 @@ import PropTypes from 'prop-types';
 import GWrap from 'components/02_Molecules/GWrap';
 import Title from 'components/01_Atoms/Title';
 import Cont from 'components/01_Atoms/Cont';
-import { ModeContext } from 'store/mode';
+import { StoreContext } from 'store/store';
 
 const Body = () => {
-	const context = useContext(ModeContext);
+	const context = useContext(StoreContext);
 	return (
 		<section css={sectionStyle}>
 			<div className={['left', context.blk ? 'black' : ''].join(' ')}>
