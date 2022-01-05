@@ -2,23 +2,29 @@ import React, { useContext } from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import GWrap from 'components/02_Molecules/GWrap';
 import Title from 'components/01_Atoms/Title';
 import Cont from 'components/01_Atoms/Cont';
+// import Cont from 'components/01_Atoms/ImgCont';
 import { StoreContext } from 'store/store';
 
 const Body = () => {
-	const { blk, iam } = useContext(StoreContext);
-
-	// console.log(context);
+	const { blk, iam, skill } = useContext(StoreContext);
+	console.log(skill);
 	return (
 		<section css={sectionStyle}>
 			<div className={['left', blk ? 'black' : ''].join(' ')}>
-				<GWrap>
-					<Title ttl="Skills" blk={blk ? false : true} />
-					<Cont contP="test" blk={blk ? false : true} />
-				</GWrap>
+				{skill && (
+					<GWrap>
+						<Title ttl={skill.ttl} blk={blk ? false : true} />
+						{/* <ImgCont
+							sttl="Frontend"
+							// contUl={skill.cont.}
+							blk={blk ? false : true}
+						/> */}
+					</GWrap>
+				)}
 				<GWrap>
 					<Title ttl="Contact" blk={blk ? false : true} />
 					<Cont contP="test" blk={blk ? false : true} />
@@ -40,15 +46,15 @@ const Body = () => {
 	);
 };
 
-Body.defaultProps = {
-	contDt: 'Lorem ipsum',
-	contDd: 'Lorem ipsum',
-};
+// Body.defaultProps = {
+// 	contDt: 'Lorem ipsum',
+// 	contDd: 'Lorem ipsum',
+// };
 
-Body.propTypes = {
-	contDt: PropTypes.string,
-	contDd: PropTypes.string,
-};
+// Body.propTypes = {
+// 	contDt: PropTypes.string,
+// 	contDd: PropTypes.string,
+// };
 
 const sectionStyle = css`
 	display: flex;

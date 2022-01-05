@@ -4,35 +4,29 @@ import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
 
-const Cont = ({ contP, contDt, contDd, ttl, contUl, blk }) => {
+const ImgCont = ({ cont, blk }) => {
 	return (
 		<div css={contStyle} className={blk ? 'black' : ''}>
-			{ttl && <h4>{ttl}</h4>}
-			{contP && <p>{contP}</p>}
-			{contDt && (
-				<dl>
-					<dt>{contDt}</dt>
-					<dd>{contDd}</dd>
-				</dl>
-			)}
-			{contUl && (
-				<ul>
-					{contUl.map((item) => (
-						<li key={item}>{item}</li>
-					))}
-				</ul>
+			{cont && (
+				<div>
+					<div>
+						<img src="" alt="react" />
+					</div>
+					<div>
+						<strong>React</strong>
+					</div>
+					<div>
+						<ul>
+							<li>ES6 문법에 능숙합니다.</li>
+						</ul>
+					</div>
+				</div>
 			)}
 		</div>
 	);
 };
 
-// Cont.defaultProps = {
-// 	contP: 'Lorem ipsum',
-// 	contDt: 'Lorem ipsum',
-// 	contDd: 'Lorem ipsum',
-// };
-
-Cont.propTypes = {
+ImgCont.propTypes = {
 	ttl: PropTypes.string,
 	contP: PropTypes.string,
 	contDt: PropTypes.string,
@@ -96,4 +90,4 @@ const contStyle = css`
 	}
 `;
 
-export default Cont;
+export default ImgCont;
