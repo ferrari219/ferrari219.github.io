@@ -6,7 +6,7 @@ import theme from 'styles/theme';
 import GWrap from 'components/02_Molecules/GWrap';
 import Title from 'components/01_Atoms/Title';
 import Cont from 'components/01_Atoms/Cont';
-// import Cont from 'components/01_Atoms/ImgCont';
+import ImgCont from 'components/03_Organisms/ImgCont';
 import { StoreContext } from 'store/store';
 
 const Body = () => {
@@ -18,6 +18,7 @@ const Body = () => {
 				{skill && (
 					<GWrap>
 						<Title ttl={skill.ttl} blk={blk ? false : true} />
+						<ImgCont cont={skill.cont} blk={blk ? false : true} />
 						{/* <ImgCont
 							sttl="Frontend"
 							// contUl={skill.cont.}
