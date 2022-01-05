@@ -1,4 +1,3 @@
-import Canvas from 'components/02_Molecules/Canvas';
 import Cont from './Cont';
 
 export default {
@@ -6,11 +5,7 @@ export default {
 	component: Cont,
 };
 
-const Template = (args) => (
-	<Canvas>
-		<Cont {...args} />
-	</Canvas>
-);
+const Template = (args) => <Cont {...args} />;
 
 export const Overview = Template.bind({});
 Overview.args = {
@@ -18,4 +13,5 @@ Overview.args = {
 	contP: 'Lorem Ipsum',
 	contDt: 'Lorem Ipsum',
 	contDd: 'Lorem Ipsum',
+	contUl: 'Lorem Ipsum',
 };

@@ -1,10 +1,30 @@
 {
-	"skill": [
+	"frontend": [
 		{
 			"id": 0,
-			"name": "",
-			"cont": "",
-			"img": ""
+			"name": "React",
+			"cont": ["개인 프로젝트는 모두 리액트로 제작했습니다."],
+			"img": "react"
+		},
+		{
+			"id": 1,
+			"name": "Javascript ES6",
+			"cont": ["ES6 문법에 능숙합니다."],
+			"img": "es6"
+		}
+	],
+	"Design": [
+		{
+			"id": 0,
+			"name": "Figma",
+			"cont": ["개인 프로젝트는 모두 피그마로 제작"],
+			"img": "figma"
+		},
+		{
+			"id": 1,
+			"name": "Adobe XD",
+			"cont": [""],
+			"img": "xd"
 		}
 	]
 }

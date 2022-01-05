@@ -9,27 +9,31 @@ import Cont from 'components/01_Atoms/Cont';
 import { StoreContext } from 'store/store';
 
 const Body = () => {
-	const context = useContext(StoreContext);
+	const { blk, iam } = useContext(StoreContext);
+
+	// console.log(context);
 	return (
 		<section css={sectionStyle}>
-			<div className={['left', context.blk ? 'black' : ''].join(' ')}>
+			<div className={['left', blk ? 'black' : ''].join(' ')}>
 				<GWrap>
-					<Title ttl="Skills" blk={context.blk ? false : true} />
-					<Cont contP="test" blk={context.blk ? false : true} />
+					<Title ttl="Skills" blk={blk ? false : true} />
+					<Cont contP="test" blk={blk ? false : true} />
 				</GWrap>
 				<GWrap>
-					<Title ttl="Contact" blk={context.blk ? false : true} />
-					<Cont contP="test" blk={context.blk ? false : true} />
+					<Title ttl="Contact" blk={blk ? false : true} />
+					<Cont contP="test" blk={blk ? false : true} />
 				</GWrap>
 			</div>
 			<div className="right">
+				{iam && (
+					<GWrap>
+						<Title ttl={iam.ttl} blk={blk ? true : false} />
+						<Cont contUl={iam.cont} blk={blk ? true : false} />
+					</GWrap>
+				)}
 				<GWrap>
-					<Title ttl="I am" blk={context.blk ? true : false} />
-					<Cont contP="test" blk={context.blk ? true : false} />
-				</GWrap>
-				<GWrap>
-					<Title ttl="Experience" blk={context.blk ? true : false} />
-					<Cont contP="test" blk={context.blk ? true : false} />
+					<Title ttl="Experience" blk={blk ? true : false} />
+					<Cont contP="test" blk={blk ? true : false} />
 				</GWrap>
 			</div>
 		</section>

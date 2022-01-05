@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
 
-const Cont = ({ contP, contDt, contDd, blk }) => {
+const Cont = ({ contP, contDt, contDd, contUl, blk }) => {
 	return (
 		<div css={contStyle} className={blk ? 'black' : ''}>
 			{contP && <p>{contP}</p>}
@@ -13,6 +13,13 @@ const Cont = ({ contP, contDt, contDd, blk }) => {
 					<dt>{contDt}</dt>
 					<dd>{contDd}</dd>
 				</dl>
+			)}
+			{contUl && (
+				<ul>
+					{contUl.map((item) => (
+						<li key={item}>{item}</li>
+					))}
+				</ul>
 			)}
 		</div>
 	);
@@ -28,13 +35,16 @@ Cont.propTypes = {
 	contP: PropTypes.string,
 	contDt: PropTypes.string,
 	contDd: PropTypes.string,
+	contLi: PropTypes.array,
 };
 
 const contStyle = css`
 	width: 100%;
+	padding: 4rem 5rem 6rem 7rem;
 	font-size: ${theme.size.base};
 	/* background-color: #fff; */
 	color: ${theme.color.def};
+	opacity: 0.98;
 	&.black {
 		/* background-color: ${theme.color.dark.bg2}; */
 		color: #fff;
@@ -45,7 +55,6 @@ const contStyle = css`
 	}
 	p {
 		margin: 0;
-		padding: 4rem 5rem 6rem 7rem;
 	}
 	dl {
 		dt {
@@ -61,10 +70,26 @@ const contStyle = css`
 			color: #666;
 		}
 	}
+	ul {
+		li {
+			position: relative;
+			padding: 0.3rem 0;
+			&::before {
+				content: '';
+				position: absolute;
+				left: -1.5rem;
+				top: 1.3rem;
+				width: 0.5rem;
+				display: block;
+				border-top: 0.1rem solid ${theme.color.def};
+				opacity: 0.7;
+			}
+		}
+	}
 	@media only screen and (max-width: 768px) {
+		padding: 2rem 3rem 3rem 3rem;
 		p {
 			margin: 0;
-			padding: 2rem 3rem 3rem 3rem;
 		}
 	}
 `;
