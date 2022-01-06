@@ -46,12 +46,6 @@
 					"cont": [""],
 					"img": "jquery"
 				}
-				// {
-				// 	"id": 7,
-				// 	"name": "Typescript",
-				// 	"cont": [""],
-				// 	"img": "ts"
-				// }
 			]
 		},
 		{
@@ -80,23 +74,6 @@
 				}
 			]
 		},
-		// {
-		// 	"sttl": "Backend",
-		// 	"list": [
-		// 		{
-		// 			"id": 0,
-		// 			"name": "MySQL",
-		// 			"cont": [""],
-		// 			"img": "mysql"
-		// 		},
-		// 		{
-		// 			"id": 1,
-		// 			"name": "Express",
-		// 			"cont": [""],
-		// 			"img": "exp"
-		// 		}
-		// 	]
-		// },
 		{
 			"sttl": "Etc",
 			"list": [
