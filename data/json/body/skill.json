@@ -6,7 +6,7 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "React",
+					"name": "React.js",
 					"cont": ["개인 프로젝트는 모두 리액트로 제작했습니다."],
 					"img": "react"
 				},
@@ -15,7 +15,43 @@
 					"name": "Javascript ES6",
 					"cont": ["ES6 문법에 능숙합니다."],
 					"img": "es6"
+				},
+				{
+					"id": 2,
+					"name": "emotion.js",
+					"cont": [""],
+					"img": "emotion"
+				},
+				{
+					"id": 3,
+					"name": "styled-components",
+					"cont": [""],
+					"img": "sc"
+				},
+				{
+					"id": 4,
+					"name": "sass",
+					"cont": [""],
+					"img": "sass"
+				},
+				{
+					"id": 5,
+					"name": "Gulp",
+					"cont": [""],
+					"img": "gulp"
+				},
+				{
+					"id": 6,
+					"name": "jQuery",
+					"cont": [""],
+					"img": "jquery"
 				}
+				// {
+				// 	"id": 7,
+				// 	"name": "Typescript",
+				// 	"cont": [""],
+				// 	"img": "ts"
+				// }
 			]
 		},
 		{
@@ -35,17 +71,46 @@
 					"name": "Adobe XD",
 					"cont": ["회사내 작업물은 모두 XD로 작업합니다."],
 					"img": "xd"
+				},
+				{
+					"id": 2,
+					"name": "Adobe Photoshop",
+					"cont": [""],
+					"img": "ps"
 				}
 			]
 		},
+		// {
+		// 	"sttl": "Backend",
+		// 	"list": [
+		// 		{
+		// 			"id": 0,
+		// 			"name": "MySQL",
+		// 			"cont": [""],
+		// 			"img": "mysql"
+		// 		},
+		// 		{
+		// 			"id": 1,
+		// 			"name": "Express",
+		// 			"cont": [""],
+		// 			"img": "exp"
+		// 		}
+		// 	]
+		// },
 		{
-			"sttl": "Backend",
+			"sttl": "Etc",
 			"list": [
 				{
 					"id": 0,
-					"name": "MySQL",
-					"cont": ["어쩌구합니다."],
-					"img": "mysql"
+					"name": "Gitlab",
+					"cont": [""],
+					"img": "gitlab"
+				},
+				{
+					"id": 1,
+					"name": "Github",
+					"cont": [""],
+					"img": "github"
 				}
 			]
 		}
