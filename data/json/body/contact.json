@@ -1,7 +1,4 @@
 {
 	"ttl": "Contact",
-	"cont": [
-		{ "email": "grahamsnum@gmail.com" },
-		{ "github": "https://github.com/ferrari219" }
-	]
+	"cont": ["grahamsnum@gmail.com", "https://github.com/ferrari219"]
 }
