@@ -7,9 +7,9 @@ import { StoreContext } from 'store/store';
 import Me from 'assets/img/me.jpg';
 
 const Top = ({ name, job }) => {
-	const context = useContext(StoreContext);
+	const { blk } = useContext(StoreContext);
 	return (
-		<section css={sectionStyle} className={context.blk ? 'black' : ''}>
+		<section css={sectionStyle} className={blk ? 'black' : ''}>
 			<div className="left">
 				<img src={Me} alt="me" />
 			</div>

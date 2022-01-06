@@ -5,6 +5,7 @@ import theme from 'styles/theme';
 import PropTypes from 'prop-types';
 
 const Cont = ({ contP, contDt, contDd, ttl, contUl, blk }) => {
+	// console.log(contUl);
 	return (
 		<div css={contStyle} className={blk ? 'black' : ''}>
 			{ttl && <h4>{ttl}</h4>}

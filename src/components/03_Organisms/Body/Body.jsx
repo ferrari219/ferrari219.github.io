@@ -10,8 +10,8 @@ import ImgCont from 'components/03_Organisms/ImgCont';
 import { StoreContext } from 'store/store';
 
 const Body = () => {
-	const { blk, iam, skill } = useContext(StoreContext);
-	// console.log(iam && iam.cont);
+	const { blk, iam, skill, contact } = useContext(StoreContext);
+	console.log(contact && contact.cont);
 	return (
 		<section css={sectionStyle}>
 			<div className={['left', blk ? 'black' : ''].join(' ')}>
@@ -21,10 +21,12 @@ const Body = () => {
 						<ImgCont cont={skill.cont} blk={blk ? false : true} />
 					</GWrap>
 				)}
-				<GWrap>
-					<Title ttl="Contact" blk={blk ? false : true} />
-					<Cont contP="test" blk={blk ? false : true} />
-				</GWrap>
+				{contact && (
+					<GWrap>
+						<Title ttl={contact.ttl} blk={blk ? false : true} />
+						<Cont contUl={contact.cont} blk={blk ? false : true} />
+					</GWrap>
+				)}
 			</div>
 			<div className="right">
 				{iam && (
@@ -35,7 +37,7 @@ const Body = () => {
 				)}
 				<GWrap>
 					<Title ttl="Experience" blk={blk ? true : false} />
-					<Cont contP="test" blk={blk ? true : false} />
+					<Cont contP="제작중" blk={blk ? true : false} />
 				</GWrap>
 			</div>
 		</section>

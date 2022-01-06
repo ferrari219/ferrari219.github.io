@@ -7,27 +7,30 @@ const Store = ({ children }) => {
 	const [value, setValue] = useState({
 		iam: null,
 		skill: null,
+		contact: null,
 		loading: false,
 		error: null,
 	});
-	const { iam, skill, loading, error } = value;
+	const { iam, skill, contact, loading, error } = value;
 
 	const getData = async () => {
 		setValue({
 			...value,
 			loading: !loading,
 		});
-		console.log(value);
+		// console.log(value);
 		try {
 			const { data: iam } = await bodyApi.iam();
 			const { data: skill } = await bodyApi.skill();
+			const { data: contact } = await bodyApi.contact();
 			setValue({
 				...value,
 				iam,
 				skill,
+				contact,
 				loading: !loading,
 			});
-			console.log(value);
+			// console.log(value);
 		} catch (error) {
 			console.log("Can't find information");
 			setValue({
@@ -44,6 +47,7 @@ const Store = ({ children }) => {
 		blk: false, //다크모드 제어
 		iam,
 		skill,
+		contact,
 		loading,
 		error,
 	};

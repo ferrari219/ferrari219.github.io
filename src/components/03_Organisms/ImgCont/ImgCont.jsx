@@ -15,11 +15,8 @@ const ImgCont = ({ cont, blk }) => {
 };
 
 ImgCont.propTypes = {
-	ttl: PropTypes.string,
-	contP: PropTypes.string,
-	contDt: PropTypes.string,
-	contDd: PropTypes.string,
-	contLi: PropTypes.array,
+	cont: PropTypes.array,
+	blk: PropTypes.bool,
 };
 
 const imgContStyle = css`
