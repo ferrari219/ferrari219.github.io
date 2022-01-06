@@ -11,7 +11,7 @@ import { StoreContext } from 'store/store';
 
 const Body = () => {
 	const { blk, iam, skill } = useContext(StoreContext);
-	console.log(skill);
+	// console.log(iam && iam.cont);
 	return (
 		<section css={sectionStyle}>
 			<div className={['left', blk ? 'black' : ''].join(' ')}>
@@ -19,11 +19,6 @@ const Body = () => {
 					<GWrap>
 						<Title ttl={skill.ttl} blk={blk ? false : true} />
 						<ImgCont cont={skill.cont} blk={blk ? false : true} />
-						{/* <ImgCont
-							sttl="Frontend"
-							// contUl={skill.cont.}
-							blk={blk ? false : true}
-						/> */}
 					</GWrap>
 				)}
 				<GWrap>

@@ -4,34 +4,59 @@ import { bodyApi } from 'api/api';
 export const StoreContext = createContext();
 
 const Store = ({ children }) => {
-	const [iamD, setIamD] = useState(null);
-	const [skillD, setSkillD] = useState(null);
-	const [loading, setLoading] = useState(false);
+	const [value, setValue] = useState({
+		iam: null,
+		skill: null,
+		loading: false,
+		error: null,
+	});
+	const { iam, skill, loading, error } = value;
 
 	const getData = async () => {
-		setLoading(true);
+		setValue({
+			...value,
+			loading: !loading,
+		});
+		console.log(value);
 		try {
 			const { data: iam } = await bodyApi.iam();
 			const { data: skill } = await bodyApi.skill();
-			setIamD(iam);
-			setSkillD(skill);
-			console.log(skillD);
-		} catch {
+			setValue({
+				...value,
+				iam,
+				skill,
+				loading: !loading,
+			});
+			console.log(value);
+		} catch (error) {
 			console.log("Can't find information");
-		} finally {
-			setLoading(false);
+			setValue({
+				...value,
+				error,
+			});
 		}
 	};
 	useEffect(() => {
 		getData();
 	}, []);
+
 	const options = {
 		blk: false, //다크모드 제어
-		iam: iamD,
-		skill: skillD,
+		iam,
+		skill,
+		loading,
+		error,
 	};
+	// const onClick = () => {
+	// 	setValue({
+	// 		...value,
+	// 		iam: 'test',
+	// 	});
+	// 	console.log(value);
+	// };
 	return (
 		<StoreContext.Provider value={options}>
+			{/* <button onClick={onClick}>test</button> */}
 			{children}
 		</StoreContext.Provider>
 	);

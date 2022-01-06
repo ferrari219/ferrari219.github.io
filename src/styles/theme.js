@@ -36,6 +36,7 @@ const theme = {
 		zero: 'rgba(149, 157, 165, 0.2) 0px 8px 24px;',
 		deep: 'rgba(0, 0, 0, 0.6) 0px 7px 29px 0px;',
 	},
+	url: 'https://ferrari219.github.io/data/',
 };
 
 export default theme;
