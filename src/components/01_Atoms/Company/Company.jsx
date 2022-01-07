@@ -6,16 +6,16 @@ import PropTypes from 'prop-types';
 
 const Company = ({ company, date, blk }) => {
 	return (
-		<div css={CompanyStyle} className={blk ? 'black' : ''}>
-			{company}
-			{date}
+		<div css={CompanyStyle}>
+			<span>{date}</span>
+			<strong>{company}</strong>
 		</div>
 	);
 };
 
 Company.defaultProps = {
-	// contDt: 'Lorem ipsum',
-	// contDd: 'Lorem ipsum',
+	company: 'Lorem ipsum',
+	date: '0000~0000',
 };
 
 Company.propTypes = {
@@ -29,7 +29,6 @@ const CompanyStyle = css`
 	align-items: flex-start;
 	margin: 0;
 	padding: 0;
-	background-color: #fff;
 	& > .left {
 		flex: 1;
 	}

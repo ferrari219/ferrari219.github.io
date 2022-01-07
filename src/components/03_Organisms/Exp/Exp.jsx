@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import ExpList from 'components/02_Molecules/ExpList';
 
 const Exp = ({ cont, blk }) => {
-	console.log(cont && cont);
+	// console.log(cont && cont);
 	return (
 		<div css={expStyle} className={blk ? 'black' : ''}>
 			{cont && cont.map((item) => <ExpList key={item.id} {...item} />)}
