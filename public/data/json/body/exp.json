@@ -2,76 +2,72 @@
 	"ttl": "Experience",
 	"cont": [
 		{
+			"id": 4,
 			"company": "현대리바트",
-			"date": "",
+			"date": "2013~Now",
 			"job": "UIUX 프론트엔드 파트장",
 			"project": [
 				{
+					"id": 3,
+					"img": "",
 					"title": "리바트 씽킹 모바일웹앱. 신규사업 원데이클래스 프로토타입 제안",
-					"detail": "사내 공모전 최우수상, 사업부장 표창",
+					"result": "사내 공모전 최우수상, 사업부장 표창",
+					"cont": [],
 					"lnk": "https://xd.adobe.com/view/396a5d24-354e-468e-45e6-cb3d07819689-4f5b/"
 				},
 				{
-					"title": "리바트 하이브리드앱 최초 런칭",
-					"detail": "현대백화점 그룹사 표창, 대표이사 표창",
-					"lnk": "https://apps.apple.com/kr/app/%EB%A6%AC%EB%B0%94%ED%8A%B8-%EA%B0%80%EA%B5%AC%EC%99%80-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%86%A0%ED%83%88-%EB%A6%AC%EB%B9%99%EC%95%B1/id1483423472"
-				},
-				{
+					"id": 2,
+					"img": "",
 					"title": "버스커 모바일웹 (사이드프로젝트)",
-					"detail": "지인들과 제작한 사이드 프로젝트, 기획+디자인+프론트엔드",
+					"result": "지인들과 제작한 사이드 프로젝트, 기획+디자인+프론트엔드",
+					"cont": [],
 					"lnk": "https://projects.invisionapp.com/share/JZRMNHUH2BC"
 				},
 				{
+					"id": 1,
+					"img": "",
 					"title": "사내 업무 자동화툴 제작, 배포",
-					"detail": "대표이사 표창. 엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 제작 프로그램 제작",
+					"result": "대표이사 표창. 엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 제작 프로그램 제작",
+					"cont": [],
 					"lnk": "https://github.com/ferrari219/OAT"
+				},
+				{
+					"id": 0,
+					"img": "",
+					"title": "리바트몰 리뉴얼  최초 런칭",
+					"result": "현대백화점 그룹사 표창, 대표이사 표창",
+					"cont": [],
+					"lnk": "https://apps.apple.com/kr/app/%EB%A6%AC%EB%B0%94%ED%8A%B8-%EA%B0%80%EA%B5%AC%EC%99%80-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%86%A0%ED%83%88-%EB%A6%AC%EB%B9%99%EC%95%B1/id1483423472"
 				}
 			]
 		},
 		{
+			"id": 3,
 			"company": "잡코리아",
 			"date": "2010.4~2013.10",
 			"job": "디자인팀 웹디자인&퍼블리셔",
-			"project": [
-				{
-					"title": "",
-					"detail": "",
-					"detailEn": "",
-					"lnk": ""
-				}
-			]
+			"project": []
 		},
 		{
+			"id": 2,
 			"company": "플립 커뮤니케이션즈",
 			"date": "2009.1~2010.3",
 			"job": "웹에이전시 웹디자인&퍼블리셔",
-			"project": [
-				{
-					"title": "",
-					"detail": ""
-				}
-			]
+			"project": []
 		},
 		{
+			"id": 1,
 			"company": "힘 커뮤니케이션",
 			"date": "2007.10~2008.10",
 			"job": "웹에이전시 웹디자인&퍼블리셔",
-			"project": [
-				{
-					"title": "",
-					"detail": ""
-				}
-			]
+			"project": []
 		},
 		{
+			"id": 0,
 			"company": "피포라인",
 			"date": "2006.1~2007.9",
 			"job": "인터넷사업부 웹디자인&퍼블리셔",
-			"project": [
-				{
-					"title": ""
-				}
-			]
+			"project": []
 		}
 	]
 }

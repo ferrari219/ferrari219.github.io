@@ -13,4 +13,5 @@ export const bodyApi = {
 	iam: () => Api.get('body/iam.json'),
 	skill: () => Api.get('body/skill.json'),
 	contact: () => Api.get('body/contact.json'),
+	exp: () => Api.get('body/exp.json'),
 };

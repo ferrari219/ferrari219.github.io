@@ -4,23 +4,26 @@ import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
 
-const Project = ({ contDt, contDd, blk }) => {
+const Project = ({ title, result, img, lnk, blk }) => {
 	return (
 		<dl css={projectStyle} className={blk ? 'black' : ''}>
-			<dt>{contDt}</dt>
-			<dd>{contDd}</dd>
+			<dt>{title}</dt>
+			<dd>{result}</dd>
 		</dl>
 	);
 };
 
 Project.defaultProps = {
-	contDt: 'Lorem ipsum',
-	contDd: 'Lorem ipsum',
+	title: 'Lorem ipsum',
+	result: 'Lorem ipsum',
 };
 
 Project.propTypes = {
-	contDt: PropTypes.string,
-	contDd: PropTypes.string,
+	title: PropTypes.string,
+	result: PropTypes.string,
+	img: PropTypes.string,
+	lnk: PropTypes.string,
+	blk: PropTypes.bool,
 };
 
 const projectStyle = css`

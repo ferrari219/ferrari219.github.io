@@ -1,26 +1,26 @@
-import React, { useContext } from 'react';
+import React from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import theme from 'styles/theme';
 import PropTypes from 'prop-types';
 
-const Company = ({ contDt, contDd, blk }) => {
+const Company = ({ company, date, blk }) => {
 	return (
 		<div css={CompanyStyle} className={blk ? 'black' : ''}>
-			<div className="left">left</div>
-			<div className="right">right</div>
+			{company}
+			{date}
 		</div>
 	);
 };
 
 Company.defaultProps = {
-	contDt: 'Lorem ipsum',
-	contDd: 'Lorem ipsum',
+	// contDt: 'Lorem ipsum',
+	// contDd: 'Lorem ipsum',
 };
 
 Company.propTypes = {
-	contDt: PropTypes.string,
-	contDd: PropTypes.string,
+	// contDt: PropTypes.string,
+	blk: PropTypes.bool,
 };
 
 const CompanyStyle = css`
@@ -30,10 +30,10 @@ const CompanyStyle = css`
 	margin: 0;
 	padding: 0;
 	background-color: #fff;
-	.left {
+	& > .left {
 		flex: 1;
 	}
-	.right {
+	& > .right {
 		flex: 2;
 	}
 `;

@@ -19,9 +19,8 @@ const ImgContList = ({ sttl, list }) => {
 };
 
 ImgContList.propTypes = {
-	id: PropTypes.number,
-	img: PropTypes.string,
-	name: PropTypes.string,
+	sttl: PropTypes.string,
+	list: PropTypes.array,
 };
 
 const imgcontlistStyle = css`

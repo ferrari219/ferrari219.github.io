@@ -7,11 +7,12 @@ import GWrap from 'components/02_Molecules/GWrap';
 import Title from 'components/01_Atoms/Title';
 import Cont from 'components/01_Atoms/Cont';
 import ImgCont from 'components/03_Organisms/ImgCont';
+import Exp from 'components/03_Organisms/Exp';
 import { StoreContext } from 'store/store';
 
 const Body = () => {
-	const { blk, iam, skill, contact } = useContext(StoreContext);
-	console.log(contact && contact.cont);
+	const { iam, skill, contact, exp, blk } = useContext(StoreContext);
+	// console.log(contact && contact.cont);
 	return (
 		<section css={sectionStyle}>
 			<div className={['left', blk ? 'black' : ''].join(' ')}>
@@ -35,10 +36,12 @@ const Body = () => {
 						<Cont contUl={iam.cont} blk={blk ? true : false} />
 					</GWrap>
 				)}
-				<GWrap>
-					<Title ttl="Experience" blk={blk ? true : false} />
-					<Cont contP="제작중" blk={blk ? true : false} />
-				</GWrap>
+				{exp && (
+					<GWrap>
+						<Title ttl={exp.ttl} blk={blk ? true : false} />
+						<Exp cont={exp.cont} blk={blk ? true : false} />
+					</GWrap>
+				)}
 			</div>
 		</section>
 	);
@@ -57,7 +60,8 @@ const Body = () => {
 const sectionStyle = css`
 	display: flex;
 	flex-direction: row;
-	.left {
+	min-height: 100vh;
+	& > .left {
 		flex: 6;
 		padding-top: 6rem;
 		background-color: ${theme.color.dark.bg2};
@@ -65,16 +69,17 @@ const sectionStyle = css`
 			background-color: ${theme.color.light.bg2};
 		}
 	}
-	.right {
+	& > .right {
 		flex: 10;
 	}
 	@media only screen and (max-width: 768px) {
 		display: block;
-		.left {
+		& > .left {
 			margin: 0;
 			padding: 0;
 		}
-		.right {
+		& > .right {
+			min-height: 100vh;
 			margin: 0;
 			padding: 0;
 		}

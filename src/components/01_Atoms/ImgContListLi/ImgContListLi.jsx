@@ -27,6 +27,7 @@ ImgContListLi.propTypes = {
 	id: PropTypes.number,
 	img: PropTypes.string,
 	name: PropTypes.string,
+	cont: PropTypes.array,
 };
 
 const imgcontlistliStyle = css`

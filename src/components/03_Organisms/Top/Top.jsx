@@ -6,19 +6,22 @@ import PropTypes from 'prop-types';
 import { StoreContext } from 'store/store';
 import Me from 'assets/img/me.jpg';
 
-const Top = ({ name, job }) => {
-	const { blk } = useContext(StoreContext);
+const Top = () => {
+	const { me, blk } = useContext(StoreContext);
+	// console.log(me);
 	return (
 		<section css={sectionStyle} className={blk ? 'black' : ''}>
 			<div className="left">
 				<img src={Me} alt="me" />
 			</div>
-			<div className="right">
-				<dl>
-					<dt>{name}</dt>
-					<dd>{job}</dd>
-				</dl>
-			</div>
+			{me && (
+				<div className="right">
+					<dl>
+						<dt>{me.name}</dt>
+						<dd>{me.job}</dd>
+					</dl>
+				</div>
+			)}
 		</section>
 	);
 };
