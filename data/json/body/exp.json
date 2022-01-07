@@ -68,7 +68,24 @@
       "company": "잡코리아",
       "date": "2010.4~2013.10",
       "job": "디자인팀 웹디자인&퍼블리셔",
-      "project": []
+      "project": [
+        {
+          "id": 0,
+          "title": "통합검색 페이지 개편",
+          "cont": ["photoshop, vanilla javascript, jquery 사용"]
+        },
+        {
+          "id": 1,
+          "title": "포털 내 전체 팝업 개편",
+          "cont": ["photoshop, vanilla javascript, jquery 사용"]
+        },
+        {
+          "id": 2,
+          "title": "알바비책 하이브리드 앱 제작",
+          "cont": ["photoshop, vanilla javascript, jquery 사용"],
+          "lnk": "https://www.sktinsight.com/34700"
+        }
+      ]
     },
     {
       "id": 2,
