@@ -82,8 +82,12 @@
         {
           "id": 2,
           "title": "알바비책 하이브리드 앱 제작",
-          "cont": ["photoshop, vanilla javascript, jquery 사용"],
-          "lnk": "https://www.sktinsight.com/34700"
+          "cont": [
+            "photoshop, vanilla javascript, jquery 사용",
+            "알바비책 모바일웹(하이브리드앱) 디자인+퍼블리싱",
+            "누적 10만 다운로드 달성, 모바일웹 최초제작"
+          ],
+          "lnk": "https://www.albamon.com/service/mobile/app_albacheck.asp"
         }
       ]
     },
@@ -92,7 +96,16 @@
       "company": "플립 커뮤니케이션즈",
       "date": "2009.1~2010.3",
       "job": "웹에이전시 웹디자인&퍼블리셔",
-      "project": []
+      "project": [
+        {
+          "id": 0,
+          "img": "",
+          "title": "박카스D 리뉴얼 전 페이지 디자인, 퍼블리싱",
+          "result": "GD-WEB WinnerPrize 수상",
+          "cont": ["photoshop, flash, html"],
+          "lnk": "http://www.gdweb.co.kr/sub/view.asp?displayrow=60&Txt_key=all&Txt_word=&Txt_agnumber=&Txt_fgbn=5&Txt_bcode1=&Txt_gbflag=&Txt_bcode2=030710001&Txt_bcode3=&Txt_bcode4=&Txt_bcode5=&Page=28&str_no=1000"
+        }
+      ]
     },
     {
       "id": 1,
@@ -105,7 +118,7 @@
       "id": 0,
       "company": "피포라인",
       "date": "2006.1~2007.9",
-      "job": "인터넷사업부 웹디자인&퍼블리셔",
+      "job": "웹디자인&퍼블리셔",
       "project": []
     }
   ]
