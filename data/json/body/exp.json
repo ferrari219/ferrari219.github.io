@@ -82,10 +82,10 @@
         {
           "id": 2,
           "title": "알바비책 하이브리드 앱 제작",
+          "result": "누적 10만 다운로드 달성",
           "cont": [
             "photoshop, vanilla javascript, jquery 사용",
-            "알바비책 모바일웹(하이브리드앱) 디자인+퍼블리싱",
-            "누적 10만 다운로드 달성, 모바일웹 최초제작"
+            "알바비책 모바일웹(하이브리드앱) 디자인+퍼블리싱"
           ],
           "lnk": "https://www.albamon.com/service/mobile/app_albacheck.asp"
         }
