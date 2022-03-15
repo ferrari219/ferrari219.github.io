@@ -104,7 +104,7 @@ const sectionStyle = css`
 			bottom: 13vw;
 			z-index: 3;
 			width: 100%;
-			color: #fff;
+			/* color: #fff; */
 			/* background-color: red; */
 			dl {
 				max-width: 100%;
@@ -113,10 +113,12 @@ const sectionStyle = css`
 			dt {
 				font-size: 10vw;
 				text-align: center;
+				color: #fff;
 			}
 			dd {
 				font-size: 5vw;
 				text-align: center;
+				color: #fff;
 			}
 		}
 	}

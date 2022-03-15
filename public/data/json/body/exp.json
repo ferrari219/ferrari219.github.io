@@ -1,112 +1,123 @@
 {
-  "ttl": "Experience",
-  "cont": [
-    {
-      "id": 4,
-      "company": "현대리바트",
-      "date": "2013~Now",
-      "job": "UIUX 프론트엔드 파트장",
-      "project": [
-        {
-          "id": 4,
-          "img": "",
-          "title": "리바트 씽킹 모바일웹앱. 신규사업 원데이클래스 프로토타입 제안",
-          "result": "사내 공모전 최우수상, 사업부장 표창",
-          "cont": [
-            "동료들과 토론한 아이디어를 애자일 방식으로 제작, 코딩으로 프로토타입 제작",
-            "React.js, styled-components, react-slick, AdobeXD 사용"
-          ],
-          "lnk": "https://github.com/ferrari219/linking/tree/backup"
-        },
-        {
-          "id": 3,
-          "img": "",
-          "title": "버스커 모바일웹 (사이드프로젝트)",
-          "result": "한양대학교 창업 공모전 본선 진출",
-          "cont": [
-            "기획+디자인+프론트엔드 참여",
-            "우리 동네 길거리 음식을 실시간으로 알려주는 모바일웹앱 서비스",
-            "React.js, javascript, Storybook, SketchApp, invision 사용"
-          ],
-          "lnk": "https://github.com/ferrari219/busker-app-ts"
-        },
-        {
-          "id": 2,
-          "img": "",
-          "title": "사내 업무 자동화툴 제작, 배포",
-          "result": "대표이사 표창. 엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 제작 프로그램 제작",
-          "cont": [
-            "엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 자동 제작 프로그램",
-            "BootStrap, vanilla javascript 사용",
-            ""
-          ],
-          "lnk": "https://github.com/ferrari219/OAT"
-        },
-        {
-          "id": 1,
-          "img": "",
-          "title": "현대리바트몰 리뉴얼 TF, 퍼블리싱 제작 참여",
-          "result": "그룹사 표창, 대표이사 표창 / sass+gulp로 컴포넌트화, gitlab 저장소 도입으로 팀작업 효율 높임",
-          "cont": [
-            "리뉴얼 제작 참여(리드아님), 오픈후 1년간 약 1,000건 운영업무 처리",
-            "sass, gulp. javascript, jquery, gitlab, svn 사용"
-          ],
-          "lnk": "https://www.hyundailivart.co.kr/index"
-        },
-        {
-          "id": 0,
-          "img": "",
-          "title": "현대리바트 회사소개 웹접근성 심사 7회 통과",
-          "result": "웹와치 7년 연속 인증마크 획득",
-          "cont": [""],
-          "lnk": "https://company.hyundailivart.co.kr/ko/index"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "company": "잡코리아",
-      "date": "2010.4~2013.10",
-      "job": "디자인팀 웹디자인&퍼블리셔",
-      "project": [
-        {
-          "id": 0,
-          "title": "통합검색 페이지 개편",
-          "cont": ["photoshop, vanilla javascript, jquery 사용"]
-        },
-        {
-          "id": 1,
-          "title": "포털 내 전체 팝업 개편",
-          "cont": ["photoshop, vanilla javascript, jquery 사용"]
-        },
-        {
-          "id": 2,
-          "title": "알바비책 하이브리드 앱 제작",
-          "cont": ["photoshop, vanilla javascript, jquery 사용"],
-          "lnk": "https://www.sktinsight.com/34700"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "company": "플립 커뮤니케이션즈",
-      "date": "2009.1~2010.3",
-      "job": "웹에이전시 웹디자인&퍼블리셔",
-      "project": []
-    },
-    {
-      "id": 1,
-      "company": "힘 커뮤니케이션",
-      "date": "2007.10~2008.10",
-      "job": "웹에이전시 웹디자인&퍼블리셔",
-      "project": []
-    },
-    {
-      "id": 0,
-      "company": "피포라인",
-      "date": "2006.1~2007.9",
-      "job": "인터넷사업부 웹디자인&퍼블리셔",
-      "project": []
-    }
-  ]
+	"ttl": "Experience",
+	"cont": [
+		{
+			"id": 4,
+			"company": "현대리바트",
+			"date": "2013~Now",
+			"job": "UIUX 프론트엔드장",
+			"project": [
+				{
+					"id": 5,
+					"img": "",
+					"title": "리바트 모바일 몰메인 개편",
+					"result": "",
+					"cont": [
+						"최신 트렌드에 맞춰 디자인 및 UI개편",
+						"sass, gulp. javascript, jquery, gitlab, svn 사용"
+					],
+					"lnk": "https://www.hyundailivart.co.kr/index"
+				},
+				{
+					"id": 4,
+					"img": "",
+					"title": "리바트 씽킹 모바일웹앱. 신규사업 원데이클래스 프로토타입 제안",
+					"result": "사내 공모전 최우수상, 사업부장 표창",
+					"cont": [
+						"동료들과 토론한 아이디어를 애자일 방식으로 제작, 코딩으로 프로토타입 제작",
+						"React.js, styled-components, react-slick, AdobeXD 사용"
+					],
+					"lnk": "https://github.com/ferrari219/linking/tree/backup"
+				},
+				{
+					"id": 3,
+					"img": "",
+					"title": "버스커 모바일웹 (사이드프로젝트)",
+					"result": "한양대학교 창업 공모전 본선 진출",
+					"cont": [
+						"기획+디자인+프론트엔드 참여",
+						"우리 동네 길거리 음식을 실시간으로 알려주는 모바일웹앱 서비스",
+						"React.js, javascript, Storybook, SketchApp, invision 사용"
+					],
+					"lnk": "https://github.com/ferrari219/busker-app-ts"
+				},
+				{
+					"id": 2,
+					"img": "",
+					"title": "사내 업무 자동화툴 제작, 배포",
+					"result": "대표이사 표창. 엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 제작 프로그램 제작",
+					"cont": [
+						"엑셀파일 이용한 상품기술서/기획전 디자인, 코딩 자동 제작 프로그램",
+						"BootStrap, vanilla javascript 사용",
+						""
+					],
+					"lnk": "https://github.com/ferrari219/OAT"
+				},
+				{
+					"id": 1,
+					"img": "",
+					"title": "현대리바트몰 리뉴얼 TF, 퍼블리싱 제작 참여",
+					"result": "그룹사 표창, 대표이사 표창 / 앱최초도입, sass+gulp로 컴포넌트화, gitlab 저장소 도입으로 팀작업 효율 높임",
+					"cont": [
+						"리뉴얼 제작 일부 참여(리드아님), 오픈후 1년간 약 1,000건 운영업무 처리",
+						"sass, gulp. javascript, jquery, gitlab, svn 사용"
+					],
+					"lnk": "https://www.hyundailivart.co.kr/index"
+				},
+				{
+					"id": 0,
+					"img": "",
+					"title": "현대리바트 회사소개 웹접근성 심사 7회 통과",
+					"result": "웹와치 7년 연속 인증마크 획득",
+					"cont": [""],
+					"lnk": "https://company.hyundailivart.co.kr/ko/index"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"company": "잡코리아",
+			"date": "2010.4~2013.10",
+			"job": "디자인팀 웹디자인&퍼블리셔",
+			"project": [
+				{
+					"id": 0,
+					"title": "통합검색 페이지 개편",
+					"cont": ["photoshop, vanilla javascript, jquery 사용"]
+				},
+				{
+					"id": 1,
+					"title": "포털 내 전체 팝업 개편",
+					"cont": ["photoshop, vanilla javascript, jquery 사용"]
+				},
+				{
+					"id": 2,
+					"title": "알바비책 하이브리드 앱 제작",
+					"cont": ["photoshop, vanilla javascript, jquery 사용"],
+					"lnk": "https://www.sktinsight.com/34700"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"company": "플립 커뮤니케이션즈",
+			"date": "2009.1~2010.3",
+			"job": "웹에이전시 웹디자인&퍼블리셔",
+			"project": []
+		},
+		{
+			"id": 1,
+			"company": "힘 커뮤니케이션",
+			"date": "2007.10~2008.10",
+			"job": "웹에이전시 웹디자인&퍼블리셔",
+			"project": []
+		},
+		{
+			"id": 0,
+			"company": "피포라인",
+			"date": "2006.1~2007.9",
+			"job": "인터넷사업부 웹디자인&퍼블리셔",
+			"project": []
+		}
+	]
 }
