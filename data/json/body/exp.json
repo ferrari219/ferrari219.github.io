@@ -8,16 +8,6 @@
 			"job": "UIUX 프론트엔드장",
 			"project": [
 				{
-					"id": 5,
-					"img": "",
-					"title": "리바트 모바일 몰메인 개편",
-					"result": "",
-					"cont": [
-						"최신 트렌드에 맞춰 디자인 및 UI개편",
-						"sass, gulp. javascript, jquery, gitlab, svn 사용"
-					]
-				},
-				{
 					"id": 0,
 					"img": "",
 					"title": "현대리바트 회사소개 웹접근성 심사 7회 통과",
@@ -45,7 +35,7 @@
 						"동료들과 토론한 아이디어를 애자일 방식으로 제작, 코딩으로 프로토타입 제작",
 						"React.js, styled-components, react-slick, AdobeXD 사용"
 					],
-					"lnk": "https://github.com/ferrari219/linking/tree/backup"
+					"lnk": "https://github.com/ferrari219/linking/"
 				},
 				{
 					"id": 2,
@@ -68,8 +58,7 @@
 						"기획+디자인+프론트엔드 참여",
 						"우리 동네 길거리 음식을 실시간으로 알려주는 모바일웹앱 서비스",
 						"React.js, javascript, Storybook, SketchApp, invision 사용"
-					],
-					"lnk": "https://github.com/ferrari219/busker-app-ts"
+					]
 				}
 			]
 		},
