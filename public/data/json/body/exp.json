@@ -8,14 +8,6 @@
 			"job": "UIUX 프론트엔드장",
 			"project": [
 				{
-					"id": 0,
-					"img": "",
-					"title": "현대리바트 회사소개 웹접근성 심사 7회 통과",
-					"result": "웹와치 7년 연속 인증마크 획득",
-					"cont": [""],
-					"lnk": "https://company.hyundailivart.co.kr/ko/index"
-				},
-				{
 					"id": 1,
 					"img": "",
 					"title": "현대리바트몰 리뉴얼 TF, 퍼블리싱 제작 참여",
@@ -25,6 +17,14 @@
 						"sass, gulp. javascript, jquery, gitlab, svn 사용"
 					],
 					"lnk": "https://www.hyundailivart.co.kr/index"
+				},
+				{
+					"id": 0,
+					"img": "",
+					"title": "현대리바트 회사소개 웹접근성 심사 7회 통과",
+					"result": "웹와치 7년 연속 인증마크 획득",
+					"cont": [""],
+					"lnk": "https://company.hyundailivart.co.kr/ko/index"
 				},
 				{
 					"id": 4,
